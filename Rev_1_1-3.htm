@@ -371,11 +371,16 @@ document.querySelectorAll('.highlight').forEach(highlight => {
             highlight.addEventListener('mouseleave', function() {
                 const panel = document.getElementById('comment-panel');
                 const tooltip = panel.querySelector('.tooltip');
-                
+    
                 if (tooltip) {
+                    // Check if click target is a link inside tooltip
+                    const activeElement = document.activeElement || e.target;
+                    if (activeElement && activeElement.tagName === 'A' && 
+                        tooltip.contains(activeElement)) {
+                        return;  // Don't close if clicking link
+                    }
+        
                     tooltip.classList.remove('fade-in');
-                    
-                    // Fade out complete, then restore no-commentary
                     tooltip.addEventListener('transitionend', function handler() {
                         panel.innerHTML = '<div class="no-commentary">Hover over highlighted words for commentary</div>';
                         tooltip.removeEventListener('transitionend', handler);
