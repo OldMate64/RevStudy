@@ -117,9 +117,9 @@
             text-align: center; 
             font-size: 1.4em; 
             color: #654321; 
-            margin-bottom: 50px; 
+            margin-bottom: 25px; 
             border-bottom: 3px solid #d4af37;
-            padding-bottom: 25px;
+            padding-bottom: 15px;
             flex-shrink: 0;
         }
         .bible-text {
@@ -166,19 +166,22 @@
             .tooltip {
                 height: calc(100% - 40px);
             }
+            .bible-text {
+                font-size: 0.75em !important;  /* 60% of desktop 1.25em = 0.75em */
+            }
+            .passage-title {
+                font-size: 1em !important;     /* Smaller but readable */
+    }
         }
     </style>
 </head>
 <body>
-    <div class="page-wrapper">
-        <!-- 70% Bible column -->
-        <div class="bible-column">
+    <div class="page-wrapper"><!-- 70% Bible column --><div class="bible-column"><a href="https://oldmate64.github.io/" target="_blank" rel="noopener">Home</a>
             <div class="passage-title">Revelation 1:1-3 (RSV)</div>
-            <div class="bible-text">
-The <span class="highlight" data-tooltip="revelation">revelation</span> of <span class="highlight" data-tooltip="jesus-christ">Jesus Christ</span>, 
+            <div class="bible-text">The <span class="highlight" data-tooltip="revelation">revelation</span> of <span class="highlight" data-tooltip="jesus-christ">Jesus Christ</span>, 
                   which <span class="highlight" data-tooltip="god-gave">God gave him</span> 
                                                 to show to his servants 
-                                                               <span class="highlight" data-tooltip="soon-take-place">what must soon take place</span>; 
+                                                               what <span class="highlight" data-tooltip="must">must</span> <span class="highlight" data-tooltip="soon">soon</span> take place; 
                          and he               made it known
                                               <span class="highlight" data-tooltip="angel">by sending his angel</span> 
                                        to his <span class="highlight" data-tooltip="servant">servant</span> <span class="highlight" data-tooltip="john">John</span>, 
@@ -213,10 +216,17 @@ for <span class="highlight" data-tooltip="time-near">the time is near</span>.
             'god-gave': `<div class="tooltip-content">Emphasizes divine initiative - revelation comes by God sovereignly choosing to reveal, not by human efforts to discover ultimate reality.
                         Cf. <a href="https://www.biblegateway.com/passage/?search=Amos%203%3A7&version=RSV" target="_blank" rel="noopener">Amos 3:7</a> (God reveals to prophets).</div>
                         <div class="source">- Rabbinic theology</div>`,
-            'soon-take-place': `<div class="tooltip-content">Urgent eschatology is typical of apocalyptic literature (<a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>). <br>
-                              "Soon" is to be measured in God's 'kairos' time, not necessarily imminent 'chronos' time. 
-                              However, the sense of imminence also suggests the revelation is directly relevant to John's contemporaries,
-                              not primarily for those living 2 millenia later!</div>
+            must: `<div class="tooltip-content">'Must' (δεῖ) signifies an absolute divine necessity, indicating the events to be described are decreed by God's will. It echoes the LXX of
+                              <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>. However, while Daniel looked toward
+                              the end of days, John's 'must' here signals the promised plan is finally being enacted. John's 'must' also echoes Jesus' δεῖ when he spoke of the necessity that his
+                              life and death 'must' fulfil all Scripture (eg. <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">Luke 24:44</a>) 
+                              </div>
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>, 
+                            <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">Luke 24:44</a></div>`, 
+            soon: `<div class="tooltip-content">Urgent eschatology is typical of apocalyptic literature (<a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>). <br>
+                              'Soon' (ἐν τάχει ≈ 'quickly') is to be measured in God's 'kairos' time, not necessarily imminent 'chronos' time. 
+                              However, the sense of imminence ('quickly') also suggests the revelation is directly relevant to John's contemporaries,
+                              not only or even primarily for those living 2 millenia later!</div>
                         <div class="source">- <a href="https://www.tparents.org/Library/Unification/Books/KingJames/Kjap/4-Ezra.htm" target="_blank" rel="noopener">4 Ezra 14:46</a></div>`,
             angel: `<div class="tooltip-content">Mediating angels are common in Jewish apocalypses (
                    <a href="https://www.ccel.org/c/charles/otpseudepig/enoch/ENOCH_1.HTM" target="_blank" rel="noopener">1 Enoch,</a> 
@@ -255,7 +265,7 @@ for <span class="highlight" data-tooltip="time-near">the time is near</span>.
             john: `<div class="tooltip-content">Second century writers all identify John as the son of Zebedee, exiled to Patmos. (eg. Irenaeus). <br>
                   However, subsequent commentators suggested it was another John, due largely to linguistic & stylistic differences, though the Gospel 
                   and Revelation share numerous themes. It could be John used a different amanuensis (or that he wrote 1 and an amanuensis wrote the other.<br>
-                  The startling thing for contemporary readers is that this apocalyptic book is not ascribed to a long-dead saint (like Jewish apocalyptic texts), 
+                  The startling thing for contemporary readers is that this apocalyptic book is not ascribed to a long-dead saint (like almost all Jewish apocalyptic texts), 
                     -but to 'I, John, your brother ...', who was most likely known to the seven churches it is addressed to.   </div>
                   <div class="source">- <a href="https://www.newadvent.org/fathers/0103530.htm" target="_blank" rel="noopener">Against Heresies 5.30.3</a></div>`,
             witness: `<div class="tooltip-content">The theme of witness is very prominent throughout Revelation.<br>
