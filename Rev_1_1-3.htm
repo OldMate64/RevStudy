@@ -1,4 +1,4 @@
-xml
+        xml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,33 +6,31 @@ xml
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Revelation 1:1-3 - RSV Study (Full Height Comments)</title>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
+        * { 
+            box-sizing: border-box; 
+            margin: 0; 
             padding: 0;
         }
         a:link,
         a:visited {
-            color: #40c4ff;
-            /* bright cyan/teal */
+            color: #40c4ff;          /* bright cyan/teal */
             text-decoration: underline;
         }
 
         a:hover,
         a:focus {
-            color: #80e27e;
-            /* bright green on hover */
+            color: #80e27e;          /* bright green on hover */
             text-decoration: underline;
         }
-        html, body {
-            height: 100%;
+        html, body { 
+            height: 100%; 
             overflow-x: hidden;
-            font-family: Georgia, serif;
-            line-height: 1.7;
-            background: #f8f4e6;
+            font-family: Georgia, serif; 
+            line-height: 1.7; 
+            background: #f8f4e6; 
         }
         .page-wrapper {
-            display: flex;
+            display: flex; 
             min-height: 100vh;
             width: 100vw;
             position: fixed;
@@ -40,12 +38,12 @@ xml
             left: 0;
             gap: 0;
         }
-
+        
         /* 70% Left - Biblical passage */
         .bible-column {
-            flex: 0 0 70%;
-            background: white;
-            padding: 60px 40px;
+            flex: 0 0 70%; 
+            background: white; 
+            padding: 60px 40px; 
             box-shadow: 5px 0 20px rgba(0,0,0,0.1);
             position: relative;
             height: 100vh;
@@ -53,10 +51,10 @@ xml
             display: flex;
             flex-direction: column;
         }
-
+        
         /* 30% Right - Commentary with full-height capable boxes */
         .commentary-column {
-            flex: 0 0 30%;
+            flex: 0 0 30%; 
             padding: 20px 15px;
             background: #f0f8ff;
             position: relative;
@@ -68,12 +66,12 @@ xml
         /* Full-height capable commentary boxes */
         .tooltip {
             opacity: 0;
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #1a252f 100%);
-            color: white;
-            padding: 25px;
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #1a252f 100%); 
+            color: white; 
+            padding: 25px; 
             margin: 20px auto;
             border-radius: 8px;
-            font-size: 1.05em;
+            font-size: 1.05em; 
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
             display: flex;
@@ -94,8 +92,8 @@ xml
             flex: 1;
         }
         .tooltip .source {
-            font-size: 0.9em;
-            opacity: 0.85;
+            font-size: 0.9em; 
+            opacity: 0.85; 
             margin-top: 15px;
             font-style: italic;
             border-top: 1px solid rgba(255,255,255,0.15);
@@ -116,26 +114,26 @@ xml
         }
 
         .passage-title {
-            text-align: center;
-            font-size: 1.4em;
-            color: #654321;
-            margin-bottom: 25px;
+            text-align: center; 
+            font-size: 1.4em; 
+            color: #654321; 
+            margin-bottom: 25px; 
             border-bottom: 3px solid #d4af37;
             padding-bottom: 15px;
             flex-shrink: 0;
         }
         .bible-text {
-            font-size: 1.25em;
-            line-height: 2.0;
+            font-size: 1.25em; 
+            line-height: 2.0; 
             flex: 1;
             white-space: pre-wrap;
             font-feature-settings: "kern" 1;
         }
         .highlight {
-            background: #fff9c4;
-            padding: 2px 4px;
-            border-radius: 4px;
-            cursor: pointer;
+            background: #fff9c4; 
+            padding: 2px 4px; 
+            border-radius: 4px; 
+            cursor: pointer; 
             border-bottom: 2px solid #f0c14b;
             transition: all 0.3s ease;
             position: relative;
@@ -146,15 +144,11 @@ xml
             transform: scale(1.03);
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
-
+        
         /* Mobile-first: smaller fonts up to 1024px */
-        @media (max-width: 1024px) and (orientation: portrait) {
-            .bible-text {
-                font-size: 0.75em !important;
-            }
-            .passage-title {
-                font-size: 1em !important;
-            }
+@media (max-width: 1024px) and (orientation: portrait) {
+            .bible-text { font-size: 0.75em !important; }
+            .passage-title { font-size: 1em !important; }
             .tooltip {
                 font-size: 0.7em;
             }
@@ -162,17 +156,11 @@ xml
             .tooltip .source {
                 font-size: 0.6em;
             }
-        }
+}
 
         @media (max-width: 1200px) and (orientation: landscape) {
-            .bible-text {
-                font-size: 0.9em !important;
-            }
-
-            /* Slightly larger for landscape */
-            .passage-title {
-                font-size: 1.1em !important;
-            }
+            .bible-text { font-size: 0.9em !important; }  /* Slightly larger for landscape */
+            .passage-title { font-size: 1.1em !important; }
             .tooltip {
                 font-size: 0.7em;
             }
@@ -180,23 +168,22 @@ xml
             .tooltip .source {
                 font-size: 0.6em;
             }
-
         }
 
         @media (max-width: 768px) {
-            .page-wrapper {
-                flex-direction: column;
+            .page-wrapper { 
+                flex-direction: column; 
                 position: relative;
                 height: auto;
             }
-            .bible-column {
-                flex: none;
-                height: auto;
+            .bible-column { 
+                flex: none; 
+                height: auto; 
                 box-shadow: none;
             }
-            .commentary-column {
-                flex: none;
-                height: 350px;
+            .commentary-column { 
+                flex: none; 
+                height: 350px; 
                 position: relative;
                 border-left: none;
                 border-top: 3px solid #d4af37;
@@ -205,193 +192,185 @@ xml
                 height: calc(100% - 40px);
             }
             .bible-text {
-                font-size: 0.75em !important;
-                /* 60% of desktop 1.25em = 0.75em */
+                font-size: 0.75em !important;  /* 60% of desktop 1.25em = 0.75em */
             }
             .passage-title {
-                font-size: 1em !important;
-                /* Smaller but readable */
+                font-size: 1em !important;     /* Smaller but readable */
             }
+
         }
     </style>
 </head>
 <body>
-    <div class="page-wrapper">
-        <!-- 70% Bible column --><div class="bible-column">
-            <a href="https://oldmate64.github.io/Revstudy/" target="_blank" rel="noopener">Home</a>
-            <div class="passage-title">
-                Revelation 1:1-3 (RSV)
-            </div>
-            <div class="bible-text">
-                The <span class="highlight" data-tooltip="revelation">revelation</span> of <span class="highlight" data-tooltip="jesus-christ">Jesus Christ</span>,
-                which <span class="highlight" data-tooltip="god-gave">God gave him</span>
-                to show to his servants
-                what <span class="highlight" data-tooltip="must">must</span> <span class="highlight" data-tooltip="soon">soon</span> take place;
-                and he               made it known
-                <span class="highlight" data-tooltip="angel">by sending his angel</span>
-                to his <span class="highlight" data-tooltip="servant">servant</span> <span class="highlight" data-tooltip="john">John</span>,
-                who bore <span class="highlight" data-tooltip="witness">witness</span> to the <span class="highlight" data-tooltip="word-god">word of God</span>
-                and to the <span class="highlight" data-tooltip="testimony-jesus">testimony of Jesus Christ</span>,
-                even to       <span class="highlight" data-tooltip="all-saw">all that he saw</span>.
+    <div class="page-wrapper"><!-- 70% Bible column --><div class="bible-column"><a href="https://oldmate64.github.io/Revstudy/" target="_blank" rel="noopener">Home</a>
+            <div class="passage-title">Revelation 1:1-3 (RSV)</div>
+            <div class="bible-text">The <span class="highlight" data-tooltip="revelation">revelation</span> of <span class="highlight" data-tooltip="jesus-christ">Jesus Christ</span>, 
+                  which <span class="highlight" data-tooltip="god-gave">God gave him</span> 
+                                                to show to his servants 
+                                                               what <span class="highlight" data-tooltip="must">must</span> <span class="highlight" data-tooltip="soon">soon</span> take place; 
+                         and he               made it known
+                                              <span class="highlight" data-tooltip="angel">by sending his angel</span> 
+                                       to his <span class="highlight" data-tooltip="servant">servant</span> <span class="highlight" data-tooltip="john">John</span>, 
+                                                     who bore <span class="highlight" data-tooltip="witness">witness</span> to the <span class="highlight" data-tooltip="word-god">word of God</span> 
+                                                                             and to the <span class="highlight" data-tooltip="testimony-jesus">testimony of Jesus Christ</span>, 
+                                                                            even to       <span class="highlight" data-tooltip="all-saw">all that he saw</span>. 
 
-                <span class="highlight" data-tooltip="blessed">Blessed</span> is       he   who <span class="highlight" data-tooltip="reads">reads aloud</span> the words of the <span class="highlight" data-tooltip="prophecy">prophecy</span>,
-                and blessed are those who <span class="highlight" data-tooltip="hear">hear</span>,
-                and who <span class="highlight" data-tooltip="keep">keep</span>                   what is written therein;
+         <span class="highlight" data-tooltip="blessed">Blessed</span> is       he   who <span class="highlight" data-tooltip="reads">reads aloud</span> the words of the <span class="highlight" data-tooltip="prophecy">prophecy</span>, 
+ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span>, 
+                                  and who <span class="highlight" data-tooltip="keep">keep</span>                   what is written therein; 
 
-                for <span class="highlight" data-tooltip="time-near">the time is near</span>.
+for <span class="highlight" data-tooltip="time-near">the time is near</span>.
             </div>
         </div>
 
         <!-- 30% Right commentary column -->
         <div class="commentary-column" id="comment-panel">
-            <div class="no-commentary">
-                Hover over highlighted words for commentary
-            </div>
+            <div class="no-commentary">Hover over highlighted words for commentary</div>
         </div>
     </div>
 
     <script>
         const tooltips = {
             revelation: `<div class="tooltip-content">'Apokalypsis' (ἀποκάλυψις) means "unveiling" or "disclosure". <br>
-            This is a revelation both *from Jesus* and *of Jesus*. He is both the source and the key subject of the revelation.<br>
-            Parallels <a href="https://www.biblegateway.com/passage/?search=Daniel%202%3A28-29&version=RSV" target="_blank" rel="noopener">Daniel 2:28-29 (LXX)</a>.</div>
-            <div class="source">- Jewish apocalyptic tradition & Scott McKnight</div>`,
+                        This is a revelation both *from Jesus* and *of Jesus*. He is both the source and the key subject of the revelation.<br> 
+                        Parallels <a href="https://www.biblegateway.com/passage/?search=Daniel%202%3A28-29&version=RSV" target="_blank" rel="noopener">Daniel 2:28-29 (LXX)</a>.</div>
+                        <div class="source">- Jewish apocalyptic tradition & Scott McKnight</div>`,
             'jesus-christ': `<div class="tooltip-content">'Jesus' appears 14 times in Revelation. <br>
-            'Christ' appears 7 times in Revelation.<br>
-            Use of 7 (& its multiples) in apocalyptic literature evokes or implies completeness, perfection, and totality.</div>
-            <div class="source">- text of Revelation</div>`,
+                        'Christ' appears 7 times in Revelation.<br>
+                        Use of 7 (& its multiples) in apocalyptic literature evokes or implies completeness, perfection, and totality.</div>
+                        <div class="source">- text of Revelation</div>`,
             'god-gave': `<div class="tooltip-content">Emphasizes divine initiative - revelation comes by God sovereignly choosing to reveal, not by human efforts to discover ultimate reality.
-            Cf. <a href="https://www.biblegateway.com/passage/?search=Amos%203%3A7&version=RSV" target="_blank" rel="noopener">Amos 3:7</a> (God reveals to prophets).</div>
-            <div class="source">- Rabbinic theology</div>`,
+                        Cf. <a href="https://www.biblegateway.com/passage/?search=Amos%203%3A7&version=RSV" target="_blank" rel="noopener">Amos 3:7</a> (God reveals to prophets).</div>
+                        <div class="source">- Rabbinic theology</div>`,
             must: `<div class="tooltip-content">'Must' (δεῖ) signifies an absolute divine necessity, indicating the events to be described are decreed by God's will. It echoes the LXX of
-            <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>. However, while Daniel looked toward
-            the end of days, John's 'must' here signals the promised plan is finally being enacted. John's 'must' also echoes Jesus' δεῖ when he spoke of the necessity that his
-            life and death 'must' fulfil all Scripture (eg. <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">Luke 24:44</a>)
-            </div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">Luke 24:44</a></div>`,
+                              <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>. However, while Daniel looked toward
+                              the end of days, John's 'must' here signals the promised plan is finally being enacted. John's 'must' also echoes Jesus' δεῖ when he spoke of the necessity that his
+                              life and death 'must' fulfil all Scripture (eg. <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">Luke 24:44</a>) 
+                              </div>
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>, 
+                            <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">Luke 24:44</a></div>`, 
             soon: `<div class="tooltip-content">Urgent eschatology is typical of apocalyptic literature (<a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>). <br>
-            'Soon' (ἐν τάχει ≈ 'quickly') is to be measured in God's 'kairos' time, not necessarily imminent 'chronos' time.
-            However, the sense of imminence ('quickly') also suggests the revelation is directly relevant to John's contemporaries,
-            not only or even primarily for those living 2 millenia later!</div>
-            <div class="source">- <a href="https://www.tparents.org/Library/Unification/Books/KingJames/Kjap/4-Ezra.htm" target="_blank" rel="noopener">4 Ezra 14:46</a></div>`,
+                              'Soon' (ἐν τάχει ≈ 'quickly') is to be measured in God's 'kairos' time, not necessarily imminent 'chronos' time. 
+                              However, the sense of imminence ('quickly') also suggests the revelation is directly relevant to John's contemporaries,
+                              not only or even primarily for those living 2 millenia later!</div>
+                        <div class="source">- <a href="https://www.tparents.org/Library/Unification/Books/KingJames/Kjap/4-Ezra.htm" target="_blank" rel="noopener">4 Ezra 14:46</a></div>`,
             angel: `<div class="tooltip-content">Mediating angels are common in Jewish apocalypses (
-            <a href="https://www.ccel.org/c/charles/otpseudepig/enoch/ENOCH_1.HTM" target="_blank" rel="noopener">1 Enoch,</a>
-            <a href="https://www.biblegateway.com/passage/?search=Dan%2010&version=RSV" target="_blank" rel="noopener">Daniel 10</a>). <br>
-            This is not the Holy Spirit.<br>
-            "At this time in history men ... felt direct communication between God and man was impossible and that                there must always be some intermediary.
-            In the OT story Moses received the Law directly from the hands of God
-            (<a href="https://www.biblegateway.com/passage/?search=Ex%2019&version=RSV" target="_blank" rel="noopener">Exod 19:1-25</a>;
-            <a href="https://www.biblegateway.com/passage/?search=Ex%2020&version=RSV" target="_blank" rel="noopener">20:1-26</a>); but twice in the NT it is said that
-            the Law was given by angels
-            (<a href="https://www.biblegateway.com/passage/?search=Acts%207%3A53&version=RSV" target="_blank" rel="noopener">Acts 7:53</a>;
-            <a href="https://www.biblegateway.com/passage/?search=Gal%203%3A19&version=RSV" target="_blank" rel="noopener">Gal 3:19</a>)." <a href="https://www.studylight.org/commentaries/eng/dsb/revelation-1.html" target="_blank" rel="noopener">Barclay</a></div>
-            <div class="source">- <a href="https://sacred-texts.com/bib/fbe/fbe272.htm" target="_blank" rel="noopener">Testament of Levi 2:7</a></div>`,
-            servant: `<div class="tooltip-content">Doulos (δοῦλος) ≈ 'slave'. Many 'servants' of God are identified in the OT
-            (including <a href="https://www.biblegateway.com/passage/?search=Gen%2026%3A24&version=RSV" target="_blank" rel="noopener">Abraham</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Is%2044%3A1-2&version=RSV target="_blank" rel="noopener">Jacob</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Job%201%3A8&version=RSV" target="_blank" rel="noopener">Job</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Num%2012%3A7&version=RSV" target="_blank" rel="noopener">Moses</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Num%2014%3A24&version=RSV" target="_blank" rel="noopener">Caleb</a> &
-            <a href="https://www.biblegateway.com/passage/?search=Josh%2024%3A29&version=RSV" target="_blank" rel="noopener">Joshua</a>,
-            <a href="https://www.biblegateway.com/passage/?search=1%20ki%2011%3A36&version=RSV" target="_blank" rel="noopener">David</a> &
-            <a href="https://www.biblegateway.com/passage/?search=2%20ki%2021%3A10&version=RSV" target="_blank" rel="noopener">the prophets</a>). <br>
-            In the NT, this term is used of
-            <a href="https://www.biblegateway.com/passage/?search=2%20cor%204%3A5&version=RSV" target="_blank" rel="noopener">the apostles</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Col%204%3A12&version=RSV" target="_blank" rel="noopener">Epaphras</a> &
-            <a href="https://www.biblegateway.com/passage/?search=Eph%206%3A6&version=RSV" target="_blank" rel="noopener">all Christians</a>. <br>
-            Here it seems a deliberate echo of the role of Moses & the prophets,
-            identifying John as prophetic successor.</div>
-            <div class="source">-
-            <a href="https://www.biblegateway.com/passage/?search=Exod%2014%3A31&version=RSV" target="_blank" rel="noopener">Exod 14:31</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Num%2012%3A7&version=RSV" target="_blank" rel="noopener">Num 12:7</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Deut%2034%3A5&version=RSV" target="_blank" rel="noopener">Deut 34:5</a>,
-            <a href="https://www.biblegateway.com/passage/?search=col%201%3A7-8&version=RSV" target="_blank" rel="noopener">Acts 16:17</a>,
-            <a href="https://www.biblegateway.com/passage/?search=col%201%3A7-8&version=RSV" target="_blank" rel="noopener">Col 1:7-8</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Eph%206%3A6&version=RSV" target="_blank" rel="noopener">Eph 6:6</a></div>`,
+                   <a href="https://www.ccel.org/c/charles/otpseudepig/enoch/ENOCH_1.HTM" target="_blank" rel="noopener">1 Enoch,</a> 
+                   <a href="https://www.biblegateway.com/passage/?search=Dan%2010&version=RSV" target="_blank" rel="noopener">Daniel 10</a>). <br>
+                   This is not the Holy Spirit.<br>
+                   "At this time in history men ... felt direct communication between God and man was impossible and that                there must always be some intermediary. 
+                   In the OT story Moses received the Law directly from the hands of God 
+                   (<a href="https://www.biblegateway.com/passage/?search=Ex%2019&version=RSV" target="_blank" rel="noopener">Exod 19:1-25</a>; 
+                    <a href="https://www.biblegateway.com/passage/?search=Ex%2020&version=RSV" target="_blank" rel="noopener">20:1-26</a>); but twice in the NT it is said that 
+                   the Law was given by angels 
+                   (<a href="https://www.biblegateway.com/passage/?search=Acts%207%3A53&version=RSV" target="_blank" rel="noopener">Acts 7:53</a>; 
+                    <a href="https://www.biblegateway.com/passage/?search=Gal%203%3A19&version=RSV" target="_blank" rel="noopener">Gal 3:19</a>)." <a href="https://www.studylight.org/commentaries/eng/dsb/revelation-1.html" target="_blank" rel="noopener">Barclay</a></div>
+                   <div class="source">- <a href="https://sacred-texts.com/bib/fbe/fbe272.htm" target="_blank" rel="noopener">Testament of Levi 2:7</a></div>`,
+            servant: `<div class="tooltip-content">Doulos (δοῦλος) ≈ 'slave'. Many 'servants' of God are identified in the OT 
+                    (including <a href="https://www.biblegateway.com/passage/?search=Gen%2026%3A24&version=RSV" target="_blank" rel="noopener">Abraham</a>, 
+                    <a href="https://www.biblegateway.com/passage/?search=Is%2044%3A1-2&version=RSV target="_blank" rel="noopener">Jacob</a>, 
+                    <a href="https://www.biblegateway.com/passage/?search=Job%201%3A8&version=RSV" target="_blank" rel="noopener">Job</a>, 
+                    <a href="https://www.biblegateway.com/passage/?search=Num%2012%3A7&version=RSV" target="_blank" rel="noopener">Moses</a>,
+                    <a href="https://www.biblegateway.com/passage/?search=Num%2014%3A24&version=RSV" target="_blank" rel="noopener">Caleb</a> & 
+                    <a href="https://www.biblegateway.com/passage/?search=Josh%2024%3A29&version=RSV" target="_blank" rel="noopener">Joshua</a>, 
+                    <a href="https://www.biblegateway.com/passage/?search=1%20ki%2011%3A36&version=RSV" target="_blank" rel="noopener">David</a> & 
+                    <a href="https://www.biblegateway.com/passage/?search=2%20ki%2021%3A10&version=RSV" target="_blank" rel="noopener">the prophets</a>). <br>
+                    In the NT, this term is used of 
+                    <a href="https://www.biblegateway.com/passage/?search=2%20cor%204%3A5&version=RSV" target="_blank" rel="noopener">the apostles</a>, 
+                    <a href="https://www.biblegateway.com/passage/?search=Col%204%3A12&version=RSV" target="_blank" rel="noopener">Epaphras</a> & 
+                    <a href="https://www.biblegateway.com/passage/?search=Eph%206%3A6&version=RSV" target="_blank" rel="noopener">all Christians</a>. <br>
+                    Here it seems a deliberate echo of the role of Moses & the prophets, 
+                     identifying John as prophetic successor.</div>
+                     <div class="source">- 
+                        <a href="https://www.biblegateway.com/passage/?search=Exod%2014%3A31&version=RSV" target="_blank" rel="noopener">Exod 14:31</a>,      
+                        <a href="https://www.biblegateway.com/passage/?search=Num%2012%3A7&version=RSV" target="_blank" rel="noopener">Num 12:7</a>,            
+                        <a href="https://www.biblegateway.com/passage/?search=Deut%2034%3A5&version=RSV" target="_blank" rel="noopener">Deut 34:5</a>, 
+                        <a href="https://www.biblegateway.com/passage/?search=col%201%3A7-8&version=RSV" target="_blank" rel="noopener">Acts 16:17</a>, 
+                        <a href="https://www.biblegateway.com/passage/?search=col%201%3A7-8&version=RSV" target="_blank" rel="noopener">Col 1:7-8</a>, 
+                        <a href="https://www.biblegateway.com/passage/?search=Eph%206%3A6&version=RSV" target="_blank" rel="noopener">Eph 6:6</a></div>`,
             john: `<div class="tooltip-content">Second century writers all identify John as the son of Zebedee, exiled to Patmos. (eg. Irenaeus). <br>
-            However, subsequent commentators suggested it was another John, due largely to linguistic & stylistic differences, though the Gospel
-            and Revelation share numerous themes. It could be John used a different amanuensis (or that he wrote 1 and an amanuensis wrote the other.<br>
-            The startling thing for contemporary readers is that this apocalyptic book is not ascribed to a long-dead saint (like almost all Jewish apocalyptic texts),
-            -but to 'I, John, your brother ...', who was most likely known to the seven churches it is addressed to.   </div>
-            <div class="source">- <a href="https://www.newadvent.org/fathers/0103530.htm" target="_blank" rel="noopener">Against Heresies 5.30.3</a></div>`,
+                  However, subsequent commentators suggested it was another John, due largely to linguistic & stylistic differences, though the Gospel 
+                  and Revelation share numerous themes. It could be John used a different amanuensis (or that he wrote 1 and an amanuensis wrote the other.<br>
+                  The startling thing for contemporary readers is that this apocalyptic book is not ascribed to a long-dead saint (like almost all Jewish apocalyptic texts), 
+                    -but to 'I, John, your brother ...', who was most likely known to the seven churches it is addressed to.   </div>
+                  <div class="source">- <a href="https://www.newadvent.org/fathers/0103530.htm" target="_blank" rel="noopener">Against Heresies 5.30.3</a></div>`,
             witness: `<div class="tooltip-content">The theme of witness is very prominent throughout Revelation.<br>
-            Jesus is described as 'the witness, the faithful one',<br>
-            John here 'bore witness' in writing this book,
-            and churches are called to, and affirmed in, faithful witness throughout the book.<br>
-            The word 'witness' appears about 29 times throughout the book, often tied to themes of testimony, faithfulness, and martyrdom.</div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%208%3A1&version=RSV" target="_blank" rel="noopener">Dan 8:1</a></div>`,
-            'word-god': `<div class="tooltip-content">Distinct from "testimony of Jesus" - probably refers most directly to the OT prophetic word,though may also allude to Jesus' identity as 'the Word of God'
-            (<a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">19:13</a>).
-            Contributes to double (or triple?) witness structure.</div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Deut%2018%3A18&version=RSV" target="_blank" rel="noopener">Deut 18:18</a>, </div>`,
-            'testimony-jesus': `<div class="tooltip-content">This could refer to Jesus' teaching (from the Gospels) and/or John's own eyewitness testimony about Jesus, not just written text.
-            Legal principle of '2 or 3 witnesses' is fulfilled here.</div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Num%2035%3A30&version=RSV" target="_blank" rel="noopener">Num 35:30</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Deut%2019%3A15&version=RSV" target="_blank" rel="noopener">Deut 19:15</a></div>`,
-            'all-saw': `<div class="tooltip-content">John here equates 'the word of God', 'the testimony of Jesus' and 'all he saw'.
-            He perceives that what he 'saw' is continuous (even the fulfillment of) the 'word of God'
-            embodied in the prophetic tradition of Israel, and the 'testimony of Jesus' (both the teaching of Jesus and
-            the teaching about Jesus) in the Gospels.<br>
-            His language emphasises the visionary nature of the revelation John received - he saw/heard what he reports. <br>
-            This follows the common apocalyptic eyewitness formula.</div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%208%3A1&version=RSV" target="_blank" rel="noopener">Dan 8:1</a></div>`,
-            blessed: `<div class="tooltip-content">First of seven beatitudes in Revelation - 1:3,
-            <a href="https://www.biblegateway.com/passage/?search=Rev%2014%3A13&version=RSV" target="_blank" rel="noopener">14:13</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Revelation%2016%3A15&version=RSV" target="_blank" rel="noopener">16:15</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A9&version=RSV" target="_blank" rel="noopener">19:9</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Rev%2020%3A6&version=RSV" target="_blank" rel="noopener">20:6</a>,
-            <a href="https://www.biblegateway.com/passage/?search=Rev%2022%3A7&version=RSV" target="_blank" rel="noopener">22:7</a> &
-            <a href="https://www.biblegateway.com/passage/?search=Rev%2022%3A14&version=RSV" target="_blank" rel="noopener">22:14</a>. <br>
-            They follow the classical makarismos formula (eg.
-            <a href="https://www.biblegateway.com/passage/?search=Ps%201%3A1&version=RSV" target="_blank" rel="noopener">Ps 1:1</a>),
-            generally pronouncing blessings for obedience.<br>
-            This first blessing is 3-fold - the apocalyptic use of 3s emphasises transcendence and completeness.
-            Here it highlights the spiritual source and nature of these blessings.</div>
-            <div class="source">- Jewish wisdom tradition</div>`,
-            reads: `<div class="tooltip-content">Liturgical reading aloud in the ekklesia is expected.<br>
-            Public reading suggests both proclamation and divine commissioning.</div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Neh%208%3A8&version=RSV" target="_blank" rel="noopener">Neh 8:8</a></div>`,
-            prophecy: `<div class="tooltip-content">Not mere prediction but God's revealed word requiring response.
-            Biblical prophecy was generally forth-telling the heart and will of God, rather than predictive statements about the future.<br>
-            Prediction is included where it adds weight to the exhortations and warnings given by the prophet. Hence prophecy is a 'word that demands obedience.'</div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Jer%201%3A12&version=RSV" target="_blank" rel="noopener">Jer 1:12</a></div>`,
-            hear: `<div class="tooltip-content">Not passive hearing but obedient response (as in
-            <a href="https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A4-9&version=RSV" target="_blank" rel="noopener">the Shema</a>). <br>
-            Double blessing for hearers/doers.</div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A4-9&version=RSV" target="_blank" rel="noopener">Deut 6:4-9</a></div>`,
+                        Jesus is described as 'the witness, the faithful one',<br>
+                        John here 'bore witness' in writing this book,
+                        and churches are called to, and affirmed in, faithful witness throughout the book.<br>
+                        The word 'witness' appears about 29 times throughout the book, often tied to themes of testimony, faithfulness, and martyrdom.</div>
+                       <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%208%3A1&version=RSV" target="_blank" rel="noopener">Dan 8:1</a></div>`,
+            'word-god': `<div class="tooltip-content">Distinct from "testimony of Jesus" - probably refers most directly to the OT prophetic word,though may also allude to Jesus' identity as 'the Word of God' 
+                        (<a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">19:13</a>). 
+                        Contributes to double (or triple?) witness structure.</div>
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Deut%2018%3A18&version=RSV" target="_blank" rel="noopener">Deut 18:18</a>, </div>`,
+            'testimony-jesus': `<div class="tooltip-content">This could refer to Jesus' teaching (from the Gospels) and/or John's own eyewitness testimony about Jesus, not just written text. 
+                              Legal principle of '2 or 3 witnesses' is fulfilled here.</div>
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Num%2035%3A30&version=RSV" target="_blank" rel="noopener">Num 35:30</a>, 
+                            <a href="https://www.biblegateway.com/passage/?search=Deut%2019%3A15&version=RSV" target="_blank" rel="noopener">Deut 19:15</a></div>`,
+            'all-saw': `<div class="tooltip-content">John here equates 'the word of God', 'the testimony of Jesus' and 'all he saw'. 
+                       He perceives that what he 'saw' is continuous (even the fulfillment of) the 'word of God' 
+                       embodied in the prophetic tradition of Israel, and the 'testimony of Jesus' (both the teaching of Jesus and 
+                       the teaching about Jesus) in the Gospels.<br>
+                       His language emphasises the visionary nature of the revelation John received - he saw/heard what he reports. <br>
+                       This follows the common apocalyptic eyewitness formula.</div>
+                       <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%208%3A1&version=RSV" target="_blank" rel="noopener">Dan 8:1</a></div>`,
+            blessed: `<div class="tooltip-content">First of seven beatitudes in Revelation - 1:3, 
+                     <a href="https://www.biblegateway.com/passage/?search=Rev%2014%3A13&version=RSV" target="_blank" rel="noopener">14:13</a>, 
+                     <a href="https://www.biblegateway.com/passage/?search=Revelation%2016%3A15&version=RSV" target="_blank" rel="noopener">16:15</a>, 
+                     <a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A9&version=RSV" target="_blank" rel="noopener">19:9</a>, 
+                     <a href="https://www.biblegateway.com/passage/?search=Rev%2020%3A6&version=RSV" target="_blank" rel="noopener">20:6</a>, 
+                     <a href="https://www.biblegateway.com/passage/?search=Rev%2022%3A7&version=RSV" target="_blank" rel="noopener">22:7</a> & 
+                     <a href="https://www.biblegateway.com/passage/?search=Rev%2022%3A14&version=RSV" target="_blank" rel="noopener">22:14</a>. <br>
+                     They follow the classical makarismos formula (eg. 
+                     <a href="https://www.biblegateway.com/passage/?search=Ps%201%3A1&version=RSV" target="_blank" rel="noopener">Ps 1:1</a>), 
+                     generally pronouncing blessings for obedience.<br>
+                     This first blessing is 3-fold - the apocalyptic use of 3s emphasises transcendence and completeness. 
+                     Here it highlights the spiritual source and nature of these blessings.</div>
+                     <div class="source">- Jewish wisdom tradition</div>`,
+            reads: `<div class="tooltip-content">Liturgical reading aloud in the ekklesia is expected.<br> 
+                   Public reading suggests both proclamation and divine commissioning.</div>
+                   <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Neh%208%3A8&version=RSV" target="_blank" rel="noopener">Neh 8:8</a></div>`,
+            prophecy: `<div class="tooltip-content">Not mere prediction but God's revealed word requiring response. 
+                      Biblical prophecy was generally forth-telling the heart and will of God, rather than predictive statements about the future.<br>
+                      Prediction is included where it adds weight to the exhortations and warnings given by the prophet. Hence prophecy is a 'word that demands obedience.'</div>
+                      <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Jer%201%3A12&version=RSV" target="_blank" rel="noopener">Jer 1:12</a></div>`,
+            hear: `<div class="tooltip-content">Not passive hearing but obedient response (as in 
+                    <a href="https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A4-9&version=RSV" target="_blank" rel="noopener">the Shema</a>). <br>
+                  Double blessing for hearers/doers.</div>
+                  <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A4-9&version=RSV" target="_blank" rel="noopener">Deut 6:4-9</a></div>`,
             keep: `<div class="tooltip-content">Shamar = watchfully guard/diligently observe Torah commandments - an ethical imperative. <br>
-            This is the 7th step to fulfil the purpose of revelation. <br>
-            Revelation comes from God, <br>    to Jesus <br>   (in his humanity? John 5:20), <br>   to his angel, <br>   to John,
-            <br>   to all who read (aloud), <br>   to all who hear and <br>   to all who keep it.<br>
-            Use of 7s in apocalyptic literature evokes or implies completeness, perfection, and totality.</div>
-            <div class="source">- cf. <a href="https://www.biblegateway.com/passage/?search=Gen%2017%3A9&version=RSV" target="_blank" rel="noopener">Gen 17:9</a></div>`,
-            'time-near': `<div class="tooltip-content">Imminent expectation - "at hand" language of Daniel/the prophets.
-            The time here is God's 'kairos' (καιρός) time, not 'chronos' (χρόνος) calendar time.</div>
-            <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Zeph%201%3A14&version=RSV" target="_blank" rel="noopener">Zeph 1:14</a></div>`
+                  This is the 7th step to fulfil the purpose of revelation. <br>
+                  Revelation comes from God, <br>    to Jesus <br>   (in his humanity? John 5:20), <br>   to his angel, <br>   to John, 
+                  <br>   to all who read (aloud), <br>   to all who hear and <br>   to all who keep it.<br>
+                  Use of 7s in apocalyptic literature evokes or implies completeness, perfection, and totality.</div>
+                  <div class="source">- cf. <a href="https://www.biblegateway.com/passage/?search=Gen%2017%3A9&version=RSV" target="_blank" rel="noopener">Gen 17:9</a></div>`,
+            'time-near': `<div class="tooltip-content">Imminent expectation - "at hand" language of Daniel/the prophets. 
+                         The time here is God's 'kairos' (καιρός) time, not 'chronos' (χρόνος) calendar time.</div>
+                         <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Zeph%201%3A14&version=RSV" target="_blank" rel="noopener">Zeph 1:14</a></div>`
         };
 
-        document.querySelectorAll('.highlight').forEach(highlight => {
+document.querySelectorAll('.highlight').forEach(highlight => {
             highlight.addEventListener('mouseenter', function() {
                 const tooltipKey = this.getAttribute('data-tooltip');
                 const panel = document.getElementById('comment-panel');
-
+                
                 // Set content first
                 panel.innerHTML = `<div class="tooltip">${tooltips[tooltipKey]}</div>`;
-
+                
                 // Force reflow, then trigger fade-in
                 const tooltip = panel.querySelector('.tooltip');
                 tooltip.offsetHeight; // Trigger reflow
                 tooltip.classList.add('fade-in');
             });
-
+            
             highlight.addEventListener('mouseleave', function() {
                 const panel = document.getElementById('comment-panel');
                 const tooltip = panel.querySelector('.tooltip');
-
+                
                 if (tooltip) {
                     tooltip.classList.remove('fade-in');
-
+                    
                     // Fade out complete, then restore no-commentary
                     tooltip.addEventListener('transitionend', function handler() {
                         panel.innerHTML = '<div class="no-commentary">Hover over highlighted words for commentary</div>';
