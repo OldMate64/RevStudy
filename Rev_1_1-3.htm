@@ -199,6 +199,20 @@
             }
 
         }
+        .tooltip {
+    /* ... your existing tooltip styles ... */
+    touch-action: manipulation;  /* Key fix for mobile */
+    -webkit-touch-callout: none; /* Prevents text selection issues */
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.tooltip a {
+    -webkit-touch-callout: default !important;  /* Links remain tappable */
+    -webkit-user-select: text !important;
+    user-select: text !important;
+    pointer-events: auto;
+}
     </style>
 </head>
 <body>
@@ -382,7 +396,7 @@ document.querySelectorAll('.highlight').forEach(highlight => {
         
                     tooltip.classList.remove('fade-in');
                     tooltip.addEventListener('transitionend', function handler() {
-                        panel.innerHTML = '<div class="no-commentary">Hover over highlighted words for commentary</div>';
+                        panel.innerHTML = '<div class="no-commentary">Hover over (or select) highlighted words for commentary</div>';
                         tooltip.removeEventListener('transitionend', handler);
                     });
                 }
@@ -396,7 +410,13 @@ document.addEventListener('click', function(e) {
         return;               // Don't close tooltip
     }
 }, true);
-
+// Mobile: Prevent tooltip close on link taps
+document.addEventListener('touchstart', function(e) {
+    if (e.target.closest('.tooltip a')) {
+        e.stopPropagation();
+        return false;
+    }
+}, true);
     </script>
 </body>
 </html>
