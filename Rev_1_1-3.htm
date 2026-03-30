@@ -156,6 +156,16 @@
             .tooltip .source {
                 font-size: 0.6em;
             }
+                .highlight {
+        /* Mobile: Use tap instead of hover */
+        pointer-events: auto;
+    }
+    
+    /* Links in tooltip always clickable */
+    .tooltip a {
+        pointer-events: auto !important;
+        z-index: 1000;
+    }
 }
 
         @media (max-width: 1200px) and (orientation: landscape) {
@@ -168,6 +178,16 @@
             .tooltip .source {
                 font-size: 0.6em;
             }
+                .highlight {
+        /* Mobile: Use tap instead of hover */
+        pointer-events: auto;
+    }
+    
+    /* Links in tooltip always clickable */
+    .tooltip a {
+        pointer-events: auto !important;
+        z-index: 1000;
+    }
         }
 
         @media (max-width: 768px) {
