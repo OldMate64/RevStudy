@@ -225,6 +225,7 @@
     -webkit-touch-callout: none; /* Prevents text selection issues */
     -webkit-user-select: none;
     user-select: none;
+        pointer-events: none;  /* Disables all events inside tooltip */
 }
 
 .tooltip a {
@@ -232,7 +233,9 @@
     -webkit-user-select: text !important;
     user-select: text !important;
     pointer-events: auto;
+        pointer-events: auto !important;  /* RE-enables clicks ONLY on links */
 }
+
     </style>
 </head>
 <body>
@@ -436,6 +439,10 @@ document.addEventListener('touchstart', function(e) {
         e.stopPropagation();
         return false;
     }
+}, true);
+// Stop tooltip from closing when tapping links
+document.addEventListener('click', function(e) {
+    if (e.target.closest('a')) return;  // Links are OK
 }, true);
     </script>
 </body>
