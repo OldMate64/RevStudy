@@ -388,6 +388,15 @@ document.querySelectorAll('.highlight').forEach(highlight => {
                 }
             });
         });
+
+        // Prevent tooltip close when clicking links inside
+document.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A') {
+        e.stopPropagation();  // Stop the click bubbling to tooltip container
+        return;               // Don't close tooltip
+    }
+}, true);
+
     </script>
 </body>
 </html>
