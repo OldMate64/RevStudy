@@ -156,16 +156,6 @@
             .tooltip .source {
                 font-size: 0.6em;
             }
-                .highlight {
-        /* Mobile: Use tap instead of hover */
-        pointer-events: auto;
-    }
-    
-    /* Links in tooltip always clickable */
-    .tooltip a {
-        pointer-events: auto !important;
-        z-index: 1000;
-    }
 }
 
         @media (max-width: 1200px) and (orientation: landscape) {
@@ -178,16 +168,6 @@
             .tooltip .source {
                 font-size: 0.6em;
             }
-                .highlight {
-        /* Mobile: Use tap instead of hover */
-        pointer-events: auto;
-    }
-    
-    /* Links in tooltip always clickable */
-    .tooltip a {
-        pointer-events: auto !important;
-        z-index: 1000;
-    }
         }
 
         @media (max-width: 768px) {
@@ -219,23 +199,6 @@
             }
 
         }
-        .tooltip {
-    /* ... your existing tooltip styles ... */
-    touch-action: manipulation;  /* Key fix for mobile */
-    -webkit-touch-callout: none; /* Prevents text selection issues */
-    -webkit-user-select: none;
-    user-select: none;
-        pointer-events: none;  /* Disables all events inside tooltip */
-}
-
-.tooltip a {
-    -webkit-touch-callout: default !important;  /* Links remain tappable */
-    -webkit-user-select: text !important;
-    user-select: text !important;
-    pointer-events: auto;
-        pointer-events: auto !important;  /* RE-enables clicks ONLY on links */
-}
-
     </style>
 </head>
 <body>
@@ -432,17 +395,6 @@ document.addEventListener('click', function(e) {
         e.stopPropagation();  // Stop the click bubbling to tooltip container
         return;               // Don't close tooltip
     }
-}, true);
-// Mobile: Prevent tooltip close on link taps
-document.addEventListener('touchstart', function(e) {
-    if (e.target.closest('.tooltip a')) {
-        e.stopPropagation();
-        return false;
-    }
-}, true);
-// Stop tooltip from closing when tapping links
-document.addEventListener('click', function(e) {
-    if (e.target.closest('a')) return;  // Links are OK
 }, true);
     </script>
 </body>
