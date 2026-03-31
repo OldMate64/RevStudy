@@ -77,8 +77,8 @@
             display: flex;
             flex-direction: column;
             max-width: 90%;
-            height: calc(100vh - 60px);
-            max-height: none;
+            height: auto;
+            max-height: 90vh;
             overflow-y: auto;
             transform: translateY(20px);
             visibility: hidden;
@@ -150,11 +150,11 @@
             .bible-text { font-size: 0.75em !important; }
             .passage-title { font-size: 1em !important; }
             .tooltip {
-                font-size: 0.7em;
+                font-size: 0.75em;
             }
 
             .tooltip .source {
-                font-size: 0.6em;
+                font-size: 0.65em;
             }
             .highlight {
                 cursor: pointer;
@@ -169,11 +169,11 @@
             .bible-text { font-size: 0.9em !important; }  /* Slightly larger for landscape */
             .passage-title { font-size: 1.1em !important; }
             .tooltip {
-                font-size: 0.7em;
+                font-size: 0.75em;
             }
 
             .tooltip .source {
-                font-size: 0.6em;
+                font-size: 0.65em;
             }
                         .highlight {
                 cursor: pointer;
@@ -377,29 +377,29 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
 
         let currentHighlight = null;
 
-document.querySelectorAll('.highlight').forEach(highlight => {
-    highlight.addEventListener('click', function(e) {
-        e.preventDefault();
+        document.querySelectorAll('.highlight').forEach(highlight => {
+            highlight.addEventListener('click', function(e) {
+            e.preventDefault();
         
-        // Close current tooltip if different word tapped
-        if (currentHighlight && currentHighlight !== this) {
+            // Close current tooltip if different word tapped
+            if (currentHighlight && currentHighlight !== this) {
             hideTooltip(currentHighlight);
-        }
+            }
         
-        const tooltipKey = this.getAttribute('data-tooltip');
-        const panel = document.getElementById('comment-panel');
+            const tooltipKey = this.getAttribute('data-tooltip');
+            const panel = document.getElementById('comment-panel');
         
-        // Show new tooltip
-        panel.innerHTML = `<div class="tooltip">${tooltips[tooltipKey]}</div>`;
-        const tooltip = panel.querySelector('.tooltip');
-        tooltip.offsetHeight; // Trigger reflow
-        tooltip.classList.add('fade-in');
+            // Show new tooltip
+            panel.innerHTML = `<div class="tooltip">${tooltips[tooltipKey]}</div>`;
+            const tooltip = panel.querySelector('.tooltip');
+            tooltip.offsetHeight; // Trigger reflow
+            tooltip.classList.add('fade-in');
         
-        currentHighlight = this;
+            currentHighlight = this;
+        });
     });
-});
 
-function hideTooltip(highlight) {
+    function hideTooltip(highlight) {
     const panel = document.getElementById('comment-panel');
     const tooltip = panel.querySelector('.tooltip');
     if (tooltip) {
