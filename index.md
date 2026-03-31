@@ -53,9 +53,9 @@ It will be in development for quite awhile!
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:1-8	1st Beast 	– 7 heads & 10 horns > authority for 42 months <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:9-10	Parenthesis 	– "Let the listener hear this"<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:11-18	2nd Beast 	– like a lamb, but with the voice of a dragon<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14:1-5	The Lamb with 144000 redeemed men <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14:6-13 	3 angels in heaven & a voice … declaring judgement, condemnation, woe & a blessing<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14:14-20	The reaping of the harvest of the Earth … by ‘One like a man’ and by an angel<br>
+&nbsp;&nbsp;&nbsp;&nbsp;14:1-5	The Lamb with 144000 redeemed men <br>
+&nbsp;&nbsp;&nbsp;&nbsp;14:6-13 	3 angels in heaven & a voice … declaring judgement, condemnation, woe & a blessing<br>
+&nbsp;&nbsp;&nbsp;&nbsp;14:14-20	The reaping of the harvest of the Earth … by ‘One like a man’ and by an angel<br>
 <br>
 15:1-16:21	The Seven Bowls<br>
 &nbsp;&nbsp;&nbsp;&nbsp;15:1-16:17 Angels with 7 plagues receive 7 bowls of wrath to pour onto the earth<br>
