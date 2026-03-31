@@ -1,4 +1,3 @@
-        xml
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +12,15 @@
         }
         a:link,
         a:visited {
-            color: #40c4ff;          /* bright cyan/teal */
-            text-decoration: underline;
+            color: #5dccff;          /* blue */
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif; 
+            line-height: 0.8; 
         }
 
         a:hover,
         a:focus {
-            color: #80e27e;          /* bright green on hover */
+            color: #028a00;          /* bright green on hover */
             text-decoration: underline;
         }
         html, body { 
@@ -52,7 +53,7 @@
             flex-direction: column;
         }
         
-        /* 25% Right - Commentary with full-height capable boxes */
+        /* 25% Right - Commentary with auto height boxes */
         .commentary-column {
             flex: 0 0 25%; 
             padding: 5px 5px;
@@ -63,7 +64,7 @@
             border-left: 3px solid #d4af37;
         }
 
-        /* Full-height capable commentary boxes */
+        /* Auto height commentary boxes */
         .tooltip {
             opacity: 0;
             background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #1a252f 100%); 
@@ -92,12 +93,12 @@
             flex: 1;
         }
         .tooltip .source {
-            font-size: 0.9em; 
+            font-size: 0.8em; 
             opacity: 0.85; 
             margin-top: 15px;
             font-style: italic;
             border-top: 1px solid rgba(255,255,255,0.15);
-            padding-top: 12px;
+            padding-top: 6px;
             flex-shrink: 0;
         }
         .no-commentary {
@@ -116,7 +117,7 @@
         .passage-title {
             text-align: center; 
             font-size: 1.4em; 
-            color: #654321; 
+            color: #843300; 
             margin-bottom: 0px; 
             padding-bottom: 0px;
             flex-shrink: 0;
@@ -124,7 +125,7 @@
         .passage-subtitle {
             text-align: center; 
             font-size: 1em; 
-            color: #654321; 
+            color: #0064a2; 
             margin-bottom: 25px; 
             border-bottom: 3px solid #d4af37;
             padding-bottom: 15px;
@@ -161,8 +162,8 @@
                 font-size: 0.75em;
             }
 
-            .tooltip .source {
-                font-size: 0.65em;
+            .source {
+                font-size: 0.7em;
             }
             .highlight {
                 cursor: pointer;
@@ -180,10 +181,10 @@
                 font-size: 0.75em;
             }
 
-            .tooltip .source {
-                font-size: 0.65em;
+            .source {
+                font-size: 0.7em;
             }
-                        .highlight {
+            .highlight {
                 cursor: pointer;
             }
             .no-commentary {
@@ -211,7 +212,7 @@
                 border-top: 3px solid #d4af37;
             }
             .tooltip {
-                height: calc(100% - 40px);
+                height: auto;
             }
             .bible-text {
                 font-size: 0.75em !important;  /* 60% of desktop 1.25em = 0.75em */
@@ -228,10 +229,37 @@
             }
 
         }
+        .top-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            font-size: 0.8em;
+            font-weight: bold;
+            padding: 10px 0; /* Adjust for top spacing */
+        }
+
+            .link-left {
+                margin-right: auto; /* Pushes center and right away */
+            }
+
+            .link-center {
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .link-right {
+                margin-left: auto;
+            }
     </style>
 </head>
 <body>
-    <div class="page-wrapper"><!-- 70% Bible column --><div class="bible-column"><a href="/RevStudy/" target="_blank" rel="noopener">Home</a>
+    <div class="page-wrapper"><!-- 70% Bible column -->
+            <div class="bible-column">
+                <div class="top-links">
+                    <a href="#" class="link-left"></a>
+                    <a href="/RevStudy/" target="_blank" rel="noopener" class="link-center">HOME</a>
+                    <a href="Rev_1_4-8.htm" class="link-right">1:4-8</a></div>
             <div class="passage-title">Revelation 1:1-3 (RSV)</div>
             <div class="passage-subtitle">A preface to the letter</div>
             <div class="bible-text">The <span class="highlight" data-tooltip="revelation">revelation</span> of <span class="highlight" data-tooltip="jesus-christ">Jesus Christ</span>, 
@@ -244,11 +272,9 @@
                                             who bore <span class="highlight" data-tooltip="witness">witness</span> to the <span class="highlight" data-tooltip="word-god">word of God</span> 
                                                                       and to the <span class="highlight" data-tooltip="testimony-jesus">testimony of Jesus Christ</span>, 
                                                                      even to       <span class="highlight" data-tooltip="all-saw">all that he saw</span>. 
-
         <span class="highlight" data-tooltip="blessed">Blessed</span> is    he   who <span class="highlight" data-tooltip="reads">reads aloud</span> the words of the <span class="highlight" data-tooltip="prophecy">prophecy</span>, 
 and blessed are those who <span class="highlight" data-tooltip="hear">hear</span>, 
                                 and who <span class="highlight" data-tooltip="keep">keep</span>                what is written therein; 
-
                                                 for <span class="highlight" data-tooltip="time-near">the time is near</span>.
             </div>
         </div>
