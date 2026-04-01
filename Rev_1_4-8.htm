@@ -14,8 +14,8 @@
         a:visited {
             color: #5dccff;          /* blue */
             text-decoration: none;
-            font-family: Arial, Helvetica, sans-serif; 
-            line-height: 0.8; 
+            white-space: normal !important;
+            display: inline-block !important;
         }
 
         a:hover,
@@ -75,8 +75,10 @@
             font-size: 0.9em; 
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
-            display: flex;
-            flex-direction: column;
+            display: inline-block !important;  /* NEW */
+            flex-direction: row !important;    /* NEW - inline flow */
+            align-items: flex-start !important;
+            flex-wrap: wrap !important;
             max-width: 90%;
             height: auto;
             max-height: none;
@@ -91,7 +93,13 @@
         }
         .tooltip-content {
             flex: 1;
+            line-height: 1.4;
+            max-width: 350px;  /* Slight increase helps */
         }
+        .tooltip-content a {
+            display: inline-block !important;
+        }    
+
         .tooltip .source {
             font-size: 0.8em; 
             opacity: 0.85; 
@@ -234,8 +242,10 @@
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            font-family: Arial, Helvetica, sans-serif;
             font-size: 0.8em;
-            font-weight: bold;
+            font-weight: bold; 
+            line-height: 0.8; 
             padding: 10px 0; /* Adjust for top spacing */
         }
 
@@ -271,8 +281,8 @@ and <span class="highlight" data-tooltip="peace">peace</span>        from <span 
                                                                     <span class="highlight" data-tooltip="first-born">the first-born of the dead</span>, 
                                                             and <span class="highlight" data-tooltip="ruler-of-kings">the ruler of kings on earth</span>.
                                 To him who <span class="highlight" data-tooltip="loves-us">loves us</span>  
-                                        and has <span class="highlight" data-tooltip="freed-us">freed us</span> from our sins by his blood 
-                                                and made us <span class="highlight" data-tooltip="kingdom-priests">a kingdom</span>, 
+                                        and has <span class="highlight" data-tooltip="freed-us">freed us</span> from our sins <span class="highlight" data-tooltip="by-his-blood">by his blood</span> 
+                                                and <span class="highlight" data-tooltip="kingdom-priests">made us a kingdom</span>, 
                                                                         <span class="highlight" data-tooltip="kingdom-priests">priests</span> to his God and Father, 
                                 to him be <span class="highlight" data-tooltip="glory-forever">glory and dominion for ever and ever</span>. 
                                 Amen. 
@@ -297,90 +307,189 @@ and <span class="highlight" data-tooltip="peace">peace</span>        from <span 
 
     <script>
         const tooltips = {
-            begins: `<div class="tooltip-content">Revelation 1:4-8 follows the Greco-Roman structure for starting a letter, but expands it dramatically with Christian theology, in a similar way to the apostle Paul (cf. 
+            begins: `<div class="tooltip-content">Revelation 1:4-8 follows the Greco-Roman structure for starting a letter, but expands 
+                        it dramatically with Christian theology, in a similar way to the apostle Paul (cf. 
                         <a href="https://www.workingpreacher.org/commentaries/revised-common-lectionary/second-sunday-of-easter-3/commentary-on-revelation-14-8" target="_blank" rel="noopener">Romans 1:1-8</a>).<br>
-                        Ordinary letters used a simple prescript: Sender to Recipient, greetings (chairein). (eg. "Gaius to Marcus, greetings.") Health wishes sometimes followed.<br>
-                        John expands the basic formula: he identifies himself as the author and the 7 churches as the intended recipients, then expands the typical 'greetings' (Χαίρειν) into 'grace & peace' (χάρις καὶ εἰρήνη), 
-                        as did Paul the Apostle before him. Then John goes onto identify the source of this blessing in an extended contemplation of the divine trinity that leads to doxology & worship.
-                        John takes this secular convention and loads it with eschatology ("who is to come"), Christology (Jesus as faithful witness, firstborn from dead), and priesthood of believers — setting the apocalyptic tone 
-                        and subversion of Roman imperial ideology, militarism and economics of the whole letter from the outset.</div>
+                        Ordinary letters used a simple prescript: Sender to Recipient, greetings (chairein). 
+                        (eg. "Gaius to Marcus, greetings.") Health wishes sometimes followed.<br>
+                        John expands the basic formula: he identifies himself as the author and the 7 churches as the intended recipients, 
+                        then expands the typical 'greetings' (Χαίρειν) into 'grace & peace' (χάρις καὶ εἰρήνη), 
+                        as did Paul the Apostle before him. Then John goes onto identify the source of this blessing in an 
+                        extended contemplation of the divine trinity that leads to doxology & worship.
+                        John takes this secular convention and loads it with eschatology ("who is to come"), Christology 
+                        (Jesus as faithful witness, firstborn from dead), and priesthood of believers — setting the apocalyptic tone 
+                        and deliberate subversion of Roman imperial ideology, militarism and economics of the whole letter from the outset.</div>
                         <div class="source">- <a href="https://www.workingpreacher.org/commentaries/revised-common-lectionary/second-sunday-of-easter-3/commentary-on-revelation-14-8" target="_blank" rel="noopener">Israel Kamudzandu</a></div>`,
-            'seven-churches': `<div class="tooltip-content">The seven churches are those in Ephesus, Smyrna, Pergamum, Thyatira, Sardis, Philadelphia & Laodicea. 
-                        There were numerous other churches in Asia not included (eg. Colossae, Troas, Hierapolis, Magnesia, Miletus &Tralles).<br>
+            
+            'seven-churches': `<div class="tooltip-content">The seven churches are those in Ephesus, Smyrna, Pergamum, Thyatira, 
+                        Sardis, Philadelphia & Laodicea. There were numerous other churches in Asia not included (eg. Colossae, 
+                        Troas, Hierapolis, Magnesia, Miletus &Tralles).<br>
                         Why these 7?<br>
                         > These 7 cities were centres of 7 postal districts on a ring road.<br>
                         > Perhaps John was known to them and had a special authority (they were 'his churches'?).<br>
-                        > Almost certainly, they were to represent the entire church, given the apocalyptic symbolism of '7' and how often 
-                          John says: "He who has an ear, let him hear what the Spirit says to the Churches".  </div>
-                        <div class="source">- <a href="https://www.studylight.org/commentaries/eng/dsb/revelation-1.html" target="_blank" rel="noopener">William Barclay's commentary on these verses</a></div>`,
-            Asia: `<div class="tooltip-content">'Asia' here was the Roman imperial province of 'Asia Minor' in western Anatolia (modern Turkey). It included what had been the kingdom of Pergamon, 
-                        ruled by Attalus III from 138-133 BC. Upon his death he had no heirs, and willed his kingdom to the Roman Republic.</div>
-                        <div class="source">- <a href="https://en.wikipedia.org/wiki/Attalus_III" target="_blank" rel="noopener">Wikipedia article on Attalus III</a></div>`,
-            grace: `<div class="tooltip-content">After his brief prologue, John begins and ends his letter with 'grace' (χάρις) ... a 1-word summary of all the undeserved gifts of God, especially in the good 
-                        news of Jesus and including the message of this letter!</div>
-                        <div class="source">- <a href="https://www.studylight.org/commentaries/eng/dsb/revelation-1.html" target="_blank" rel="noopener">William Barclay</a></div>`,
-            peace: `<div class="tooltip-content">'Peace'' (εἰρήνη) was the traditional Jewish blessing, <i>shalom</i>. It was a 1-word prayer for the restoration of wholeness and harmony lost in the Fall. 
-                              </div>
+                        > Almost certainly, they were to represent the entire church, given the apocalyptic symbolism of '7' and 
+                        how often John says: "He who has an ear, let him hear what the Spirit says to the Churches".  </div>
+                        <div class="source">- 
+                        <a href="https://www.studylight.org/commentaries/eng/dsb/revelation-1.html" target="_blank" rel="noopener">
+                            William Barclay's commentary on these verses</a></div>`,
+
+            Asia: `<div class="tooltip-content">'Asia' here was the Roman imperial province of 'Asia Minor' in western Anatolia 
+                        (modern Turkey). It included what had been the kingdom of Pergamon, ruled by Attalus III from 138-133 BC. 
+                        Upon his death he had no heirs, and willed his kingdom to the Roman Republic.</div>
+                        <div class="source">
+                        <a href="https://en.wikipedia.org/wiki/Attalus_III" target="_blank" rel="noopener">
+                            - Wikipedia article on Attalus III</a></div>`,
+
+            grace: `<div class="tooltip-content">After his brief prologue, John begins and ends his letter with 'grace' (χάρις) ... 
+                        a 1-word summary of all the undeserved gifts of God, especially in the good news of Jesus and including the 
+                        message of this letter!</div>
+                        <div class="source">- 
+                        <a href="https://www.studylight.org/commentaries/eng/dsb/revelation-1.html" target="_blank" rel="noopener">
+                            William Barclay</a></div>`,
+
+            peace: `<div class="tooltip-content">'Peace'' (εἰρήνη) was the traditional Jewish blessing, <i>shalom</i>. It was a 1-word 
+                        prayer for the restoration of wholeness and harmony lost in the Fall. This is particularly significant in 
+                        this letter which will reveal the <i>shalom</i> lost in Eden being re-established in the Garden City of the 
+                        New Jerusalem (cf. 
+                        <a href="https://www.biblegateway.com/passage/?search=Revelation%2022%3A1-7&version=RSV" target="_blank" rel="noopener">
+                            22:1-7</a>).</div>
                         <div class="source">- 
                         <a href="https://www.biblegateway.com/passage/?search=Romans%201%3A7&version=RSV" target="_blank" rel="noopener">Romans 1:7</a>,      
                         <a href="https://www.biblegateway.com/passage/?search=Judges%206%3A24&version=RSV" target="_blank" rel="noopener">Judges 6:24</a>,
                         <a href="https://www.biblegateway.com/passage/?search=Isaiah%2026%3A3&version=RSV" target="_blank" rel="noopener">Isaiah 26:3</a></div>`,
-            'is-was-come': `<div class="tooltip-content">Literally 'the he who is, the he who was, and the he who is to come', breaking the rules of grammar to affirm the absolute reality of God.<br>
-                        This identification of Yahweh is based on <a href="https://www.biblegateway.com/passage/?search=Exodus%203%3A14&version=RSV" target="_blank" rel="noopener">Exodus 3:14</a>: "I am who I am" (<b>יהוה</b>). <br>
-                        In Rabbinic commentary on Ex 3:14, it is paraphrased as 'I am now what I always was and always will be' (<a href="https://www.oneforisrael.org/the-name-of-god/" target="_blank" rel="noopener">Rabbi Isaac in Exodus Rabba</a>).<br> 
-                        Similar statements are found in Greek religious writings; the Orphic hymn to Zeus (4th C BC) states "Zeus was the first, Zeus last ... Zeus head, Zeus centre, all things are from Zeus" (<a href="https://www.hellenicgods.org/orphic-fragment-168---otto-kern" target="_blank" rel="noopener">Orphic Fragment 168</a>).<br>
-                        Here it signifies God's eternal and unchanging nature. It is also significant that a similar statement is applied to Jesus in <a href="https://www.biblegateway.com/passage/?search=Hebrews%2013%3A8&version=RSV" target="_blank" rel="noopener">Hebrews 13:8</a>. 
-                        </div>
+
+            'is-was-come': `<div class="tooltip-content">Literally 'the he who is, the he who was, and the he who is to come', 
+                        breaking the rules of grammar to affirm the absolute reality of God.<br> This identification of Yahweh is 
+                        based on 
+                        <a href="https://www.biblegateway.com/passage/?search=Exodus%203%3A14&version=RSV" target="_blank" rel="noopener">
+                            Exodus 3:14</a>: "I am who I am" (<b>יהוה</b> ≈ YHWH ≈ 'I am'). In Rabbinic commentary on Ex 3:14, it is 
+                        paraphrased as 'I am now what I always was and always will be' 
+                        <a href="https://www.oneforisrael.org/the-name-of-god/" target="_blank" rel="noopener">(Exodus Rabba)</a>.<br> 
+                        Similar statements are found in Greek religious writings; the Orphic hymn to Zeus (4th C BC) states "Zeus was 
+                        the first, Zeus last ... Zeus head, Zeus centre, all things are from Zeus" 
+                        <a href="https://www.hellenicgods.org/orphic-fragment-168---otto-kern" target="_blank" rel="noopener">
+                            (Orphic Fragment 168)</a>.<br>
+                        Here it signifies God's eternal and unchanging nature. It is also significant that a similar statement is 
+                        applied to Jesus in 
+                        <a href="https://www.biblegateway.com/passage/?search=Hebrews%2013%3A8&version=RSV" target="_blank" rel="noopener">
+                            Hebrews 13:8</a>.</div>
                         <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Exodus%203%3A14&version=RSV" target="_blank" rel="noopener">Exodus 3:14</a></div>`, 
-            'seven-spirits': `<div class="tooltip-content">Urgent eschatology is typical of apocalyptic literature (<a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>). <br>
-                              'Soon' (ἐν τάχει ≈ 'quickly') is to be measured in God's 'kairos' time, not necessarily imminent 'chronos' time. 
-                              However, the sense of imminence ('quickly') also suggests the revelation is directly relevant to John's contemporaries,
-                              not only or even primarily for those living 2 millenia later!</div>
-                        <div class="source">- <a href="https://www.tparents.org/Library/Unification/Books/KingJames/Kjap/4-Ezra.htm" target="_blank" rel="noopener">4 Ezra 14:46</a></div>`,
-            'jesus-christ': `<div class="tooltip-content">Mediating angels are common in Jewish apocalypses (
-                   <a href="https://www.ccel.org/c/charles/otpseudepig/enoch/ENOCH_1.HTM" target="_blank" rel="noopener">1 Enoch,</a> 
-                   <a href="https://www.biblegateway.com/passage/?search=Dan%2010&version=RSV" target="_blank" rel="noopener">Daniel 10</a>). <br>
-                   This is not the Holy Spirit.<br>
-                   "At this time in history men ... felt direct communication between God and man was impossible and that                there must always be some intermediary. 
-                   In the OT story Moses received the Law directly from the hands of God 
-                   (<a href="https://www.biblegateway.com/passage/?search=Ex%2019&version=RSV" target="_blank" rel="noopener">Exod 19:1-25</a>; 
-                    <a href="https://www.biblegateway.com/passage/?search=Ex%2020&version=RSV" target="_blank" rel="noopener">20:1-26</a>); but twice in the NT it is said that 
-                   the Law was given by angels 
-                   (<a href="https://www.biblegateway.com/passage/?search=Acts%207%3A53&version=RSV" target="_blank" rel="noopener">Acts 7:53</a>; 
-                    <a href="https://www.biblegateway.com/passage/?search=Gal%203%3A19&version=RSV" target="_blank" rel="noopener">Gal 3:19</a>)." <a href="https://www.studylight.org/commentaries/eng/dsb/revelation-1.html" target="_blank" rel="noopener">Barclay</a></div>
-                   <div class="source">- <a href="https://sacred-texts.com/bib/fbe/fbe272.htm" target="_blank" rel="noopener">Testament of Levi 2:7</a></div>`,
-            'faithful-witness': `<div class="tooltip-content">Here 'servant' seems a deliberate echo of the role of Moses & the prophets, 
-                     identifying John as prophetic successor.</div>
+
+            'seven-spirits': `<div class="tooltip-content">Almost certainly an unusual description of the Holy Spirit, perhaps referencing:<br> 
+                        - the 7-fold identity of the Spirit in 
+                        <a href="https://www.biblegateway.com/passage/?search=Isaiah%2011%3A2&version=RSV" target="_blank" rel="noopener">
+                            Isaiah 11:2</a> and/or <br>
+                        - 7 'shares' of the Holy Spirit distributed among the 7 churches (cf. 
+                        <a href="https://www.biblegateway.com/passage/?search=Heb%202%3A4&version=RSV" target="_blank" rel="noopener">
+                            Heb 2:4</a>), and hence among <u>all</u> churches. </div>
+                        Another suggested identification has been the 7 archangels or 'angels of the presence' from Jewish 
+                        tradition 
+                        <a href="https://en.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_90" target="_blank" rel="noopener">
+                            (cf. 1 Enoch 90:21,</a> 
+                        <a href="https://www.biblegateway.com/passage/?search=Tobit%2012&version=GNT" target="_blank" rel="noopener">
+                            Tobias 12:15),</a> 
+                        often named as Michael, Gabriel, Rafael, Uriel, Saraqael, Raguel & Remiel 
+                        <a href="https://en.wikisource.org/wiki/The_Book_of_Enoch_(Charles)/Chapter_90" target="_blank" rel="noopener">
+                            (cf. 1 Enoch 20).</a>
+                        In the context, though it seems clearly to be referencing the Holy Spirit (along with God the Father and 
+                        Jesus the Son). The author of Revelation commonly symbolises angels in the narrative as stars (eg. 
+                        <a href="https://www.biblegateway.com/passage/?search=Revelation%201%3A20&version=RSV" target="_blank" rel="noopener">
+                            1:20</a>, 
+                        <a href="https://www.biblegateway.com/passage/?search=Revelation%203%3A1&version=RSV" target="_blank" rel="noopener">
+                            3:1</a>, 
+                        <a href="https://www.biblegateway.com/passage/?search=Revelation%2012%3A4&version=RSV" target="_blank" rel="noopener">
+                            12:4</a>)
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Revelation%203%3A1&version=RSV" target="_blank" rel="noopener">Revelation 3:1</a>, 
+                            <a href="https://www.biblegateway.com/passage/?search=Revelation%204%3A5&version=RSV" target="_blank" rel="noopener">4:5</a> & 
+                            <a href="https://www.biblegateway.com/passage/?search=Revelation%205%3A6&version=RSV" target="_blank" rel="noopener">5:6</a></div>`,
+
+            'jesus-christ': `<div class="tooltip-content">Jesus the Messiah is listed here after the Father and the Spirit, allowing
+                    the author to present an extended set of ascriptions and doxologies regarding Jesus which deliberately challenge
+                    Roman imperial titles ascribed to Caesar, and indeed, all human claims to ultimate power and exertions of beastly oppression.
+                   <div class="source">- cf. <a href="https://www.biblegateway.com/passage/?search=Dan%207%3A13-14&version=RSV" target="_blank" rel="noopener">
+                    Daniel 7:13-14</a></div>`,
+
+            'faithful-witness': `<div class="tooltip-content">Literally 'the witness, the faithful one' (ὁ μάρτυς ὁ πιστός). 
+                    Witness is a key theme of John's Gospel (cf. 
+                    <a href="https://www.biblegateway.com/passage/?search=John%203%3A11&version=RSV" target="_blank" rel="noopener">3:11</a>, 
+                    <a href="https://www.biblegateway.com/passage/?search=John%2018%3A37&version=RSV" target="_blank" rel="noopener">18:37</a>).<br> 
+                    'Faithful witness' here is a name of Jesus which 
+                    he will share with those who are faithful witnesses of him (cf. 
+                    <a href="https://www.biblegateway.com/passage/?search=Revelation%202%3A13&version=RSV" target="_blank" rel="noopener">2:13</a>) 
+                    and an attribute of his obedient disciples (cf. 
+                    <a href="https://www.biblegateway.com/passage/?search=Revelation%2012%3A17&version=RSV" target="_blank" rel="noopener">12:17</a>). </div>
                      <div class="source">- 
-                        <a href="https://www.biblegateway.com/passage/?search=Exod%2014%3A31&version=RSV" target="_blank" rel="noopener">Exod 14:31</a>
+                        <a href="https://www.biblegateway.com/passage/?search=John%2021%3A24&version=RSV" target="_blank" rel="noopener">John 21:24</a>,
+                        <a href="https://www.biblegateway.com/passage/?search=Acts%201%3A8&version=RSV" target="_blank" rel="noopener">Acts 1:8</a>
                         </div>`,
-            'first-born': `<div class="tooltip-content">Second century writers all identify John as the son of Zebedee, exiled to Patmos. (eg. Irenaeus). <br>
-                  However, subsequent commentators suggested it was another John, due largely to linguistic & stylistic differences, though the Gospel 
-                  and Revelation share numerous themes. It could be John used a different amanuensis (or that he wrote 1 and an amanuensis wrote the other.<br>
-                  The startling thing for contemporary readers is that this apocalyptic book is not ascribed to a long-dead saint (like almost all Jewish apocalyptic texts), 
-                    -but to 'I, John, your brother ...', who was most likely known to the seven churches it is addressed to.   </div>
-                  <div class="source">- <a href="https://www.newadvent.org/fathers/0103530.htm" target="_blank" rel="noopener">Against Heresies 5.30.3</a></div>`,
-            'ruler-of-kings': `<div class="tooltip-content">The theme of witness is very prominent throughout Revelation.<br>
-                        Jesus is described as 'the witness, the faithful one',<br>
-                        John here 'bore witness' in writing this book,
-                        and churches are called to, and affirmed in, faithful witness throughout the book.<br>
-                        The word 'witness' appears about 29 times throughout the book, often tied to themes of testimony, faithfulness, and martyrdom.</div>
-                       <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%208%3A1&version=RSV" target="_blank" rel="noopener">Dan 8:1</a></div>`,
-            'loves-us': `<div class="tooltip-content">Distinct from "testimony of Jesus" - probably refers most directly to the OT prophetic word,though may also allude to Jesus' identity as 'the Word of God' 
-                        (<a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">19:13</a>). 
-                        Contributes to double (or triple?) witness structure.</div>
-                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Deut%2018%3A18&version=RSV" target="_blank" rel="noopener">Deut 18:18</a>, </div>`,
-            'freed-us': `<div class="tooltip-content">This could refer to Jesus' teaching (from the Gospels) and/or John's own eyewitness testimony about Jesus, not just written text. 
-                              Legal principle of '2 or 3 witnesses' is fulfilled here.</div>
-                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Num%2035%3A30&version=RSV" target="_blank" rel="noopener">Num 35:30</a>, 
-                            <a href="https://www.biblegateway.com/passage/?search=Deut%2019%3A15&version=RSV" target="_blank" rel="noopener">Deut 19:15</a></div>`,
-            'kingdom-priests': `<div class="tooltip-content">John here equates 'the word of God', 'the testimony of Jesus' and 'all he saw'. 
-                       He perceives that what he 'saw' is continuous (even the fulfillment of) the 'word of God' 
-                       embodied in the prophetic tradition of Israel, and the 'testimony of Jesus' (both the teaching of Jesus and 
-                       the teaching about Jesus) in the Gospels.<br>
-                       His language emphasises the visionary nature of the revelation John received - he saw/heard what he reports. <br>
-                       This follows the common apocalyptic eyewitness formula.</div>
-                       <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%208%3A1&version=RSV" target="_blank" rel="noopener">Dan 8:1</a></div>`,
+
+            'first-born': `<div class="tooltip-content">ὁ πρωτότοκος τῶν νεκρῶν references Jesus' resurrection, but it also 
+                  highlights his preeminence, superior to the emperor's claim to be <i>'divi filius'</i>, son of a dead-but-now-deified 
+                  emperor.</div>
+                  <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Col%201%3A15-20&version=RSV" target="_blank" rel="noopener"><i>>Col 1:15-20</a>
+                    <a href="https://en.wikipedia.org/wiki/Divi_filius" target="_blank" rel="noopener"><i>>Divi filius</i>>, Wikipedia</a></div>`,
+
+            'ruler-of-kings': `<div class="tooltip-content">'The ruler of kings on earth' (ὁ ἄρχων τῶν βασιλέων τῆς γῆς) resonates 
+                        with Yahweh's promises to the Davidic king in 
+                        <a href="https://www.biblegateway.com/passage/?search=Psalm%2089%3A26-27&version=RSV" target="_blank" rel="noopener">Psalm 89</a> 
+                        and even the devil's temptation of Jesus in the wilderness (cf. 
+                        <a href="https://www.biblegateway.com/passage/?search=Matt%204%3A8-9&version=RSV" target="_blank" rel="noopener">Matt 4:8-9</a>). <br>
+                        It also, however, has a number of very significant nuances in
+                        the context of the Roman empire. Romans had a deep cultural aversion to titles of kingship (<i>rex</i>) 
+                        after overthrowing their monarchy in 509 BC. So emperors used titles such as:<br>
+                        > Princeps (first citizen) - by Augustus;<br>
+                        > Imperator (commander) - by military acclaim;<br>
+                        > Augustus (revered one) - by the Senate, invoking divine reverence;<br>
+                        > Dominus (lord/master) - by Domitian (late 1st C), who demanded the title 
+                        <a href="https://lexundria.com/suet_dom/13/r" target="_blank" rel="noopener"><i>Dominus et Deus</i></a> 
+                        ('Lord & God').<br>
+                        Jesus' title of 'ruler of the kings on earth' also evoked a Persian title <i>Shahanshah</i> ('King of Kings') 
+                        which was used by unconquered Parthian kings like Vologases I (AD 51-78) in their rivalry against Rome. That is, 
+                        Jesus (both here and in 
+                        <a href="https://www.biblegateway.com/passage/?search=REv%2019%3A11-16&version=RSV" target="_blank" rel="noopener">19:11-16</a>, 
+                        riding a very Parthian-looking white horse!) gives himself a title Caesar would not dare take for himself!<br>
+                        This is a direct subversion of the blasphemous imperial cult's claims expressed in ubiquitous use of 
+                        <i>Dominus et Deus</i> late in the 1st century.</div>
+                       <div class="source">- <a href="https://www.biblegateway.com/passage/?search=REv%2019%3A11-16&version=RSV" target="_blank" rel="noopener">Revelation 19:11-16</a></div>`,
+
+            'loves-us': `<div class="tooltip-content">'Loves' here has 'present continuous' tense ... it is a current and ongoing attitude
+                        of Christ towards his people often referred to by both Paul (cf. 
+                        <a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">Gal 2:20</a>, 
+                        <a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">Eph 5:2</a>)
+                        and John (cf. 
+                        <a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">John 15:9</a>, 
+                        <a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">1 John 4:10</a>) 
+                        in the NT, not just a reference to his past sacrifice."
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=1%20John%204%3A7-21&version=RSV" target="_blank" rel="noopener">1 John 4:7-21</a>, </div>`,
+
+            'freed-us': `<div class="tooltip-content">'Freed us' (λύσαντι ἡμᾶς ... not 'washed us' as in the KJV & NKJV) here 
+                        is in the aorist tense, referring to a past action which has been completed. This freedom is again emphasised by Paul 
+                        (cf. <a href="https://www.biblegateway.com/passage/?search=Romans%206%3A7&version=RSV" target="_blank" rel="noopener">Romans 6:7,</a> 
+                        <a href="https://www.biblegateway.com/passage/?search=Romans%206%3A17-23&version=RSV" target="_blank" rel="noopener">6:17-23,</a> 
+                        <a href="https://www.biblegateway.com/passage/?search=Romans%208%3A2&version=RSV" target="_blank" rel="noopener">8:2</a>) 
+                        and John (cf. <a href="https://www.biblegateway.com/passage/?search=Gal%205%3A1&version=RSV" target="_blank" rel="noopener">John 8:31f).</a><br>
+                        'Freed' here also carries manumission or slave-redemption imagery. Jesus' blood pays the ransom Caesar's imperial cult demanded 
+                        through sacrifices. It is another aspect of John's intentional subversion of the imperial cultic culture of Asia Minor. 
+                        </div>
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Num%2035%3A30&version=RSV" target="_blank" rel="noopener">Gal 5:1</a></div>`,
+
+            'by-his-blood': `<div class="tooltip-content">'... at the price of his blood' (cf. 
+                        <a href="https://www.biblegateway.com/passage/?search=Rev%205%3A9&version=RSV" target="_blank" rel="noopener">5:9</a>)</div>
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Eph%201%3A5-8&version=RSV" target="_blank" rel="noopener">Eph 1:5-8</a>,
+                            <a href="https://www.biblegateway.com/passage/?search=Col%201%3A13-20&version=RSV" target="_blank" rel="noopener">Col 1:13-20</a>,
+                            <a href="https://www.biblegateway.com/passage/?search=Heb%209%3A11-15&version=RSV" target="_blank" rel="noopener">Heb 9:11-15</a></div>`,
+
+            'kingdom-priests': `<div class="tooltip-content">This phrase echoes God's foundational promise to Israel in
+                       <a href="https://www.biblegateway.com/passage/?search=Exodus%2019%3A6&version=RSV" target="_blank" rel="noopener">Exodus 19:6</a>
+                       in which God promised to take a nation of slaves and make them a nation of priests. <br>Here John extends that promise
+                       to all the slaves of sin who had been loved and freed by Jesus to serve his 'God & Father'.<br>
+                       The apostle Peter had made the same assertion in <a href="https://www.biblegateway.com/passage/?search=1%20Peter%202%3A9&version=RSV" target="_blank" rel="noopener">1 Peter 2:9</a>.<br>
+                       John's use here also counters the claim of the emperor's to be <i>pontifex maximus</i>, the 'high priest' of Roman state religion.
+                       <a href="https://en.wikipedia.org/wiki/Pontifex_maximus" target="_blank" rel="noopener"><i>Pontifex maximus</i></a> 
+                        literally meant 'greatest bridge builder, with the emperors seeing themselves as the 'bridge'
+                        between divinity and the state, unifying religious and political power.</div>
+                       <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Isa%2061%3A6&version=RSV" target="_blank" rel="noopener">Isaiah 61:6</a></div>`,
+
             'glory-forever': `<div class="tooltip-content">First of seven beatitudes in Revelation - 1:3, 
                      <a href="https://www.biblegateway.com/passage/?search=Rev%2014%3A13&version=RSV" target="_blank" rel="noopener">14:13</a>, 
                      <a href="https://www.biblegateway.com/passage/?search=Revelation%2016%3A15&version=RSV" target="_blank" rel="noopener">16:15</a>, 
@@ -394,29 +503,36 @@ and <span class="highlight" data-tooltip="peace">peace</span>        from <span 
                      This first blessing is 3-fold - the apocalyptic use of 3s emphasises transcendence and completeness. 
                      Here it highlights the spiritual source and nature of these blessings.</div>
                      <div class="source">- Jewish wisdom tradition</div>`,
+
             'coming-with-clouds': `<div class="tooltip-content">Liturgical reading aloud in the ekklesia is expected.<br> 
                    Public reading suggests both proclamation and divine commissioning.</div>
                    <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Neh%208%3A8&version=RSV" target="_blank" rel="noopener">Neh 8:8</a></div>`,
+
             'every-eye': `<div class="tooltip-content">Not mere prediction but God's revealed word requiring response. 
                       Biblical prophecy was generally forth-telling the heart and will of God, rather than predictive statements about the future.<br>
                       Prediction is included where it adds weight to the exhortations and warnings given by the prophet. Hence prophecy is a 'word that demands obedience.'</div>
                       <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Jer%201%3A12&version=RSV" target="_blank" rel="noopener">Jer 1:12</a></div>`,
+
             'pierced-him': `<div class="tooltip-content">Not passive hearing but obedient response (as in 
                     <a href="https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A4-9&version=RSV" target="_blank" rel="noopener">the Shema</a>). <br>
                   Double blessing for hearers/doers.</div>
                   <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A4-9&version=RSV" target="_blank" rel="noopener">Deut 6:4-9</a></div>`,
+
             'all-tribes': `<div class="tooltip-content">Shamar = watchfully guard/diligently observe Torah commandments - an ethical imperative. <br>
                   This is the 7th step to fulfil the purpose of revelation. <br>
                   Revelation comes from God, <br>    to Jesus <br>   (in his humanity? John 5:20), <br>   to his angel, <br>   to John, 
                   <br>   to all who read (aloud), <br>   to all who hear and <br>   to all who keep it.<br>
                   Use of 7s in apocalyptic literature evokes or implies completeness, perfection, and totality.</div>
                   <div class="source">- cf. <a href="https://www.biblegateway.com/passage/?search=Gen%2017%3A9&version=RSV" target="_blank" rel="noopener">Gen 17:9</a></div>`,
+
             Amen: `<div class="tooltip-content">Imminent expectation - "at hand" language of Daniel/the prophets. 
                          The time here is God's 'kairos' (καιρός) time, not 'chronos' (χρόνος) calendar time.</div>
                          <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Zeph%201%3A14&version=RSV" target="_blank" rel="noopener">Zeph 1:14</a></div>`,
+
             'Alpha-omega': `<div class="tooltip-content">Imminent expectation - "at hand" language of Daniel/the prophets. 
                          The time here is God's 'kairos' (καιρός) time, not 'chronos' (χρόνος) calendar time.</div>
                          <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Zeph%201%3A14&version=RSV" target="_blank" rel="noopener">Zeph 1:14</a></div>`,
+
             Almighty: `<div class="tooltip-content">Imminent expectation - "at hand" language of Daniel/the prophets. 
                          The time here is God's 'kairos' (καιρός) time, not 'chronos' (χρόνος) calendar time.</div>
                          <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Zeph%201%3A14&version=RSV" target="_blank" rel="noopener">Zeph 1:14</a></div>`
