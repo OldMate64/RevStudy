@@ -53,7 +53,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:9-11 &nbsp;&nbsp;The 5th Seal : 	- The Cry of the Martyrs <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:12-17	The 6th Seal : The Day of Wrath<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:1-17 &nbsp;&nbsp;A dramatic pause … 144000 sealed, the vast crowd from every nation<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:1	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 7th Seal : Silence<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:1	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 7th Seal : Silence<br>
 <br>
 <b>8:3-11:19	The Seven Trumpets</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;8:2 The 7 Angels Receive 7 Trumpets<br>
@@ -64,8 +64,8 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:10-11	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 3rd Trumpet : 	poisonous star <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 4th Trumpet : 	lights diminished <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:13 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brief Pause : 	cry of pity<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:1-12	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 5th Trumpet : 	locusts from the pit<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:13-21	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 6th Trumpet : 	4 angels & 200 million horsemen <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:1-12	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 5th Trumpet : 	locusts from the pit<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:13-21	&nbsp;&nbsp;&nbsp;&nbsp;The 6th Trumpet : 	4 angels & 200 million horsemen <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:1-11:13	A dramatic pause … 	the Angel with the small book, God's 2 witnesses<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:14-19 &nbsp;&nbsp;The 7th Trumpet : 	the time for wrath declared<br>
 <br>
