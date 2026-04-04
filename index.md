@@ -82,12 +82,12 @@ It will be in development for quite awhile!<br>
 <b>15:1-16:21	The Seven Bowls</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;15:1-16:17 Angels with 7 plagues receive 7 bowls of wrath to pour onto the earth<br>
 &nbsp;&nbsp;&nbsp;&nbsp;16:2-21 	The angels pour out the bowls upon the kingdom of the beast<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 1st Bowl	: Ulcers<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 2nd Bowl	: Death in the sea<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:4-7 &nbsp;&nbsp;&nbsp;The 3rd Bowl	: Water turns to blood <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:8-9 &nbsp;&nbsp;&nbsp;The 4th Bowl	: Scorching heat<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:10-11	The 5th Bowl	: Darkness and agony <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 6th Bowl	: The Euphrates dried up <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 1st Bowl	: Ulcers<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 2nd Bowl	: Death in the sea<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:4-7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 3rd Bowl	: Water turns to blood <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:8-9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 4th Bowl	: Scorching heat<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:10-11 &nbsp;The 5th Bowl	: Darkness and agony <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:12 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 6th Bowl	: The Euphrates dried up <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:13-16	&nbsp;A dramatic pause	: Kings gathered at Armageddon <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:17-21	The 7th Bowl	: Earthquake and hail<br>
 <br>
