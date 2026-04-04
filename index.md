@@ -1,9 +1,7 @@
 # Revelation Study notes
-by Les Follent
-
+by Les Follent<br style="line-height: 0.5;">
 This is a site for my notes on the text of Revelation from the New Testament.
-It will be in development for quite awhile!
-
+It will be in development for quite awhile!<br style="line-height: 0.5;">
 BACKGROUND NOTES
 <div style="display: flex; gap: 1rem; margin: 1rem 0;">
   <div style="flex: 1;">
@@ -25,7 +23,6 @@ BACKGROUND NOTES
 </div>
 
 REVELATION<br style="line-height: 0.5;">
-
 <b>1:1-8 Introduction</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:1-3 Preface](https://oldmate64.github.io/RevStudy/Rev_1_1-3.htm)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:4-8 Ascription, greeting & doxology](https://oldmate64.github.io/RevStudy/Rev_1_4-8.htm)<br>
