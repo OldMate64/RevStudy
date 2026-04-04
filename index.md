@@ -52,7 +52,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:7-8 &nbsp;&nbsp;&nbsp;&nbsp;The 4th Seal : The 4th Rider	- Death<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:9-11 &nbsp;&nbsp;The 5th Seal : 	- The Cry of the Martyrs <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:12-17	The 6th Seal : The Day of Wrath<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:1-17 &nbsp;&nbsp;&nbsp;A dramatic pause … 144000 sealed, the vast crowd from every nation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:1-17 &nbsp;&nbsp;&nbsp;nbsp;&nbsp;&nbsp;A dramatic pause … 144000 sealed, the vast crowd from every nation<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:1	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 7th Seal : Silence<br>
 <br>
 <b>8:3-11:19	The Seven Trumpets</b><br>
@@ -70,20 +70,20 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:14-19 &nbsp;&nbsp;The 7th Trumpet : 	the time for wrath declared<br>
 <br>
 <b>12:1-14:20	Five Visions</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;12:1-17	War in heaven and on earth … the pregnant woman, her baby, the dragon & the angels<br>
-&nbsp;&nbsp;&nbsp;&nbsp;13:1-18	The rise of the 2 beasts<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:1-8	1st Beast 	– 7 heads & 10 horns > authority for 42 months <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:9-10	Parenthesis 	– "Let the listener hear this"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:11-18	2nd Beast 	– like a lamb, but with the voice of a dragon<br>
-&nbsp;&nbsp;&nbsp;&nbsp;14:1-5	The Lamb with 144000 redeemed men <br>
-&nbsp;&nbsp;&nbsp;&nbsp;14:6-13 	3 angels in heaven declaring judgement, condemnation, woe ... then a voice declares a blessing!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;12:1-17	&nbsp;&nbsp;&nbsp;War in heaven and on earth … the pregnant woman, her baby, the dragon & the angels<br>
+&nbsp;&nbsp;&nbsp;&nbsp;13:1-18	&nbsp;&nbsp;&nbsp;The rise of the 2 beasts<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:1-8 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1st Beast 	– 7 heads & 10 horns > authority for 42 months <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:9-10	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parenthesis 	– "Let the listener hear this"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:11-18 &nbsp;&nbsp;&nbsp;2nd Beast 	– like a lamb, but with the voice of a dragon<br>
+&nbsp;&nbsp;&nbsp;&nbsp;14:1-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Lamb with 144000 redeemed men <br>
+&nbsp;&nbsp;&nbsp;&nbsp;14:6-13 &nbsp;&nbsp;&nbsp;3 angels in heaven declaring judgement, condemnation, woe ... then a voice declares a blessing!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;14:14-20	The reaping of the harvest of the Earth … by ‘One like a man’ and by an angel<br>
 <br>
 <b>15:1-16:21	The Seven Bowls</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;15:1-16:17 Angels with 7 plagues receive 7 bowls of wrath to pour onto the earth<br>
 &nbsp;&nbsp;&nbsp;&nbsp;16:2-21 	The angels pour out the bowls upon the kingdom of the beast<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 1st Bowl	: Ulcers<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TThe 2nd Bowl	: Death in the sea<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 2nd Bowl	: Death in the sea<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:4-7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 3rd Bowl	: Water turns to blood <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:8-9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 4th Bowl	: Scorching heat<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:10-11 &nbsp;The 5th Bowl	: Darkness and agony <br>
