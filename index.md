@@ -4,7 +4,7 @@ by Les Follent<br>
 This is a site for my notes on the text of Revelation from the New Testament.
 It will be in development for quite awhile!<br>
 
-BACKGROUND NOTES
+<b>BACKGROUND NOTES</b>
 <div style="display: flex; gap: 1rem; margin: 1rem 0;">
   <div style="flex: 1;">
     <!--### Left Column-->
@@ -24,15 +24,15 @@ BACKGROUND NOTES
   </div>
 </div>
 
-REVELATION<br style="line-height: 0.5;">
+<b>REVELATION</b><br>
 <b>1:1-8 Introduction</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:1-3 Preface](https://oldmate64.github.io/RevStudy/Rev_1_1-3.htm)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:4-8 Ascription, greeting & doxology](https://oldmate64.github.io/RevStudy/Rev_1_4-8.htm)<br>
 <br>
 <b>1:9-3:22	The Messages to the Seven Churches</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:9-20 The Vision of Christ … the Son of Man among the lampstands<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:1-7 To the ekklèsia in Ephesus … the loveless church<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:8-11 To the ekklèsia in Smyna … the suffering church that will suffer to the point of death<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:9-20 &nbsp;&nbsp;The Vision of Christ … the Son of Man among the lampstands<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:1-7 &nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Ephesus … the loveless church<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:8-11 &nbsp;&nbsp;To the ekklèsia in Smyna … the suffering church that will suffer to the point of death<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:12-17 To the ekklèsia in Pergamum … the faithful church that tolerates unholy teaching<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:18-29 To the ekklèsia in Thyatira … the faithful church that tolerates unholy influencers<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:1-6 To the ekklèsia in Sardis …  the dead church with a few who are clean<br>
