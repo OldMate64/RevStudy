@@ -98,9 +98,9 @@ It will be in development for quite awhile!<br>
 <br>
 <b>19:11-20:15 The Final Destruction of Evil</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19:11-21 	The Coming of Christ … armies of men slain, the 2 beasts thrown into the lake of fire<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-10 &nbsp;&nbsp;&nbsp;&nbsp;The Millenium & the Last Battle<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Satan bound, the first resurrection & the martyrs reign with Christ for 1000 years<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:7-9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Satan is released, starts a last battle against the saints, is defeated & thrown into the fire<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-10 &nbsp;&nbsp;&nbsp;&nbsp;The Millenium & the Last Battle<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-6 &nbsp;&nbsp;&nbsp;&nbsp;Satan bound, the first resurrection & the martyrs reign with Christ for 1000 years<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:7-9 &nbsp;&nbsp;&nbsp;&nbsp;Satan is released, starts a last battle against the saints, is defeated & thrown into the fire<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:11-15 	The Final Judgement … the second resurrection & the end of death & the grave <br>
 <br>
 <b>21:1-27 	All things made new!</b><br>
