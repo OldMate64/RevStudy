@@ -1,8 +1,8 @@
 # Revelation Study notes
-by Les Follent
+by Les Follent<br>
 
 This is a site for my notes on the text of Revelation from the New Testament.
-It will be in development for quite awhile!
+It will be in development for quite awhile!<br>
 
 BACKGROUND NOTES
 <div style="display: flex; gap: 1rem; margin: 1rem 0;">
