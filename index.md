@@ -20,6 +20,7 @@ It will be in development for quite awhile!<br>
     - The Christian Context<br>
     &nbsp;&nbsp;&nbsp;&nbsp;> The Gospels & Apostolic letters<br>
     &nbsp;&nbsp;&nbsp;&nbsp;> The Early Church<br>
+    - Approaches to interpretation<br>
     - Missteps to avoid!
   </div>
 </div>
