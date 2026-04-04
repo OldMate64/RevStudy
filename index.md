@@ -7,19 +7,20 @@ It will be in development for quite awhile!
 BACKGROUND NOTES
 <div style="display: flex; gap: 2rem; margin: 2rem 0;">
   <div style="flex: 1;">
-    ### Left Column
+    <!--### Left Column-->
     <!-- - [Link 1](https://example.com/1) -->
-    - The Jewish Context
-    - The Old Testament
-    - Rabbinic Judaism
-    - Jewish Apocalyptic Writings
+    - The Jewish Context<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;> The Old Testament<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;> Rabbinic Judaism<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;> Jewish Apocalyptic Writings<br>
+    - The Context of the Roman Empire<br>
   </div>
   <div style="flex: 1;">
-    ### Right Column  
-    - The Christian Context
-       - The Gospels & Apostolic letters
-       - The Early Church 
-    - The Roman Empire
+    <!--### Right Column  -->
+    - The Christian Context<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;> The Gospels & Apostolic letters<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;> The Early Church<br>
+    - Missteps to avoid!
   </div>
 </div>
 
