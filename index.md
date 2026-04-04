@@ -36,7 +36,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:8-11 &nbsp;&nbsp;To the ekklèsia in Smyna … the suffering church that will suffer to the point of death<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:12-17 To the ekklèsia in Pergamum … the faithful church that tolerates unholy teaching<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:18-29 To the ekklèsia in Thyatira … the faithful church that tolerates unholy influencers<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:1-6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Sardis …  the dead church with a few who are clean<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:1-6 &nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Sardis …  the dead church with a few who are clean<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:7-13 &nbsp;&nbsp;To the ekklèsia in Philadelphia … the faithful church with opportunities, will be kept safe<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:14-22 To the ekklèsia in Laodicea … the lukewarm church<br>
 <br>
@@ -66,7 +66,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:13 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brief Pause : 	cry of pity<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:1-12	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 5th Trumpet : 	locusts from the pit<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9:13-21	&nbsp;&nbsp;&nbsp;&nbsp;The 6th Trumpet : 	4 angels & 200 million horsemen <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:1-11:13	A dramatic pause … 	the Angel with the small book, God's 2 witnesses<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10:1-11:13	&nbsp;&nbsp;&nbsp;A dramatic pause … 	the Angel with the small book, God's 2 witnesses<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11:14-19 &nbsp;&nbsp;The 7th Trumpet : 	the time for wrath declared<br>
 <br>
 <b>12:1-14:20	Five Visions</b><br>
@@ -83,7 +83,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;15:1-16:17 Angels with 7 plagues receive 7 bowls of wrath to pour onto the earth<br>
 &nbsp;&nbsp;&nbsp;&nbsp;16:2-21 	The angels pour out the bowls upon the kingdom of the beast<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 1st Bowl	: Ulcers<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 2nd Bowl	: Death in the sea<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TThe 2nd Bowl	: Death in the sea<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:4-7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 3rd Bowl	: Water turns to blood <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:8-9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 4th Bowl	: Scorching heat<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:10-11 &nbsp;The 5th Bowl	: Darkness and agony <br>
