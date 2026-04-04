@@ -21,7 +21,7 @@ It will be in development for quite awhile!<br>
     &nbsp;&nbsp;&nbsp;&nbsp;> The Gospels & Apostolic letters<br>
     &nbsp;&nbsp;&nbsp;&nbsp;> The Early Church<br>
     - Approaches to interpretation<br>
-    - Missteps to avoid!
+    - How to use these notes
   </div>
 </div>
 
@@ -36,7 +36,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:8-11 &nbsp;&nbsp;To the ekklèsia in Smyna … the suffering church that will suffer to the point of death<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:12-17 To the ekklèsia in Pergamum … the faithful church that tolerates unholy teaching<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:18-29 To the ekklèsia in Thyatira … the faithful church that tolerates unholy influencers<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:1-6 &nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Sardis …  the dead church with a few who are clean<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:1-6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Sardis …  the dead church with a few who are clean<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:7-13 &nbsp;&nbsp;To the ekklèsia in Philadelphia … the faithful church with opportunities, will be kept safe<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:14-22 To the ekklèsia in Laodicea … the lukewarm church<br>
 <br>
@@ -46,14 +46,14 @@ It will be in development for quite awhile!<br>
 <br>
 <b>6:1-8:2	The Seven Seals</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;6:1-8:1 	The Lamb breaks the 7 seals<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:1-2	The 1st Seal : The 1st Rider	- Conquest<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:3-4	The 2nd Seal : The 2nd Rider	- War<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:5-6	The 3rd Seal : The 3rd Rider	- Famine<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:7-8	The 4th Seal : The 4th Rider	- Death<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:9-11	The 5th Seal : 	- The Cry of the Martyrs <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:1-2 &nbsp;&nbsp;&nbsp;&nbsp;The 1st Seal : The 1st Rider	- Conquest<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:3-4 &nbsp;&nbsp;&nbsp;&nbsp;The 2nd Seal : The 2nd Rider	- War<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:5-6 &nbsp;&nbsp;&nbsp;&nbsp;The 3rd Seal : The 3rd Rider	- Famine<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:7-8 &nbsp;&nbsp;&nbsp;&nbsp;The 4th Seal : The 4th Rider	- Death<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:9-11 &nbsp;&nbsp;The 5th Seal : 	- The Cry of the Martyrs <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:12-17	The 6th Seal : The Day of Wrath<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:1-17	A dramatic pause … 144000 sealed, the vast crowd from every nation<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:1	The 7th Seal : Silence<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7:1-17 &nbsp;&nbsp;A dramatic pause … 144000 sealed, the vast crowd from every nation<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:1	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 7th Seal : Silence<br>
 &nbsp;&nbsp;&nbsp;&nbsp;8:2 7 Angels Receive 7 Trumpets<br>
 <br>
 <b>8:3-11:19	The Seven Trumpets</b><br>
