@@ -77,7 +77,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:11-18 &nbsp;&nbsp;&nbsp;2nd Beast 	– like a lamb, but with the voice of a dragon<br>
 &nbsp;&nbsp;&nbsp;&nbsp;14:1-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Lamb with 144000 redeemed men <br>
 &nbsp;&nbsp;&nbsp;&nbsp;14:6-13 &nbsp;&nbsp;&nbsp;3 angels in heaven declaring judgement, condemnation, woe <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... then a voice declares a blessing!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... then a voice declares a blessing!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;14:14-20 &nbsp;The reaping of the harvest of the Earth … by ‘One like a man’ and by an angel<br>
 <br>
 <b>15:1-16:21	The Seven Bowls</b><br>
