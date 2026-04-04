@@ -92,19 +92,19 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:17-21	The 7th Bowl	: Earthquake and hail<br>
 <br>
 <b>17:1-19:10	Three Visions of Babylon</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17:1-18 	Babylon the harlot … the ‘great city’ riding a 7-headed beast <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18:1-24 	Babylon’s destruction … announced, lamented & celebrated <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19:1-10 	Rejoicing in Heaven<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;17:1-18 &nbsp;&nbsp;&nbsp;&nbsp;Babylon the harlot … the ‘great city’ riding a 7-headed beast <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18:1-24 &nbsp;&nbsp;&nbsp;&nbsp;Babylon’s destruction … announced, lamented & celebrated <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19:1-10 &nbsp;&nbsp;&nbsp;&nbsp;Rejoicing in Heaven<br>
 <br>
 <b>19:11-20:15 The Final Destruction of Evil</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19:11-21 	The Coming of Christ … armies of men slain, the 2 beasts thrown into the lake of fire<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-10 	The Millenium & the Last Battle<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-6	Satan bound, the first resurrection & the martyrs reign with Christ for 1000 years<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:7-9	Satan is released, starts a last battle against the saints, is defeated & thrown into the fire<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-10 &nbsp;&nbsp;&nbsp;&nbsp;The Millenium & the Last Battle<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Satan bound, the first resurrection & the martyrs reign with Christ for 1000 years<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:7-9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Satan is released, starts a last battle against the saints, is defeated & thrown into the fire<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:11-15 	The Final Judgement … the second resurrection & the end of death & the grave <br>
 <br>
 <b>21:1-27 	All things made new!</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21:1-8 	The new heaven & earth … God’s dwelling place is now among the people!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21:1-8 &nbsp;&nbsp;&nbsp;&nbsp;The new heaven & earth … God’s dwelling place is now among the people!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21:9-27	The new Jerusalem descending from heaven … for those written in the Book of Life<br>
 <br>
 <b>22:1-21 	The garden city & closing words</b><br>
