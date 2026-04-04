@@ -41,11 +41,11 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:14-22 To the ekklèsia in Laodicea … the lukewarm church<br>
 <br>
 <b>4:1-5:14	The Vision of Heaven</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4:1-11	The Lord God Almighty … with the 4 living creatures & 24 elders<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5:1-14	The Lamb takes the sealed scroll … myriads of angels & all creation sings!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4:1-11 &nbsp;&nbsp;The Lord God Almighty … with the 4 living creatures & 24 elders<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5:1-14 &nbsp;&nbsp;The Lamb takes the sealed scroll … myriads of angels & all creation sings!<br>
 <br>
 <b>6:1-8:2	The Seven Seals</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;6:1-8:1 	The Lamb breaks the 7 seals<br>
+&nbsp;&nbsp;&nbsp;&nbsp;6:1-8:1 &nbsp;&nbsp;The Lamb breaks the 7 seals<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:1-2 &nbsp;&nbsp;&nbsp;&nbsp;The 1st Seal : The 1st Rider	- Conquest<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:3-4 &nbsp;&nbsp;&nbsp;&nbsp;The 2nd Seal : The 2nd Rider	- War<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6:5-6 &nbsp;&nbsp;&nbsp;&nbsp;The 3rd Seal : The 3rd Rider	- Famine<br>
@@ -56,8 +56,8 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:1	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 7th Seal : Silence<br>
 <br>
 <b>8:3-11:19	The Seven Trumpets</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;8:2 The 7 Angels Receive 7 Trumpets<br>
-&nbsp;&nbsp;&nbsp;&nbsp;8:3-6	Incense, prayers & fire prepare for the 7 trumpets <br>
+&nbsp;&nbsp;&nbsp;&nbsp;8:2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 7 Angels Receive 7 Trumpets<br>
+&nbsp;&nbsp;&nbsp;&nbsp;8:3-6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incense, prayers & fire prepare for the 7 trumpets <br>
 &nbsp;&nbsp;&nbsp;&nbsp;8:7-11:19	The angels blow the trumpets<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 1st Trumpet : 	hail and fire.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:8-9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 2nd Trumpet : 	blazing mountain <br>
