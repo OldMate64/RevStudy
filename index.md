@@ -5,7 +5,7 @@ This is a site for my notes on the text of Revelation from the New Testament.
 It will be in development for quite awhile!
 
 BACKGROUND NOTES
-<div style="display: flex; gap: 2rem; margin: 2rem 0;">
+<div style="display: flex; gap: 1rem; margin: 1rem 0;">
   <div style="flex: 1;">
     <!--### Left Column-->
     <!-- - [Link 1](https://example.com/1) -->
@@ -24,7 +24,7 @@ BACKGROUND NOTES
   </div>
 </div>
 
-REVELATION<br>
+REVELATION<br style="line-height: 0.5;">
 
 <b>1:1-8 Introduction</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:1-3 Preface](https://oldmate64.github.io/RevStudy/Rev_1_1-3.htm)<br>
