@@ -1,7 +1,9 @@
 # Revelation Study notes
-by Les Follent<br style="line-height: 0.5;">
+by Les Follent
+
 This is a site for my notes on the text of Revelation from the New Testament.
-It will be in development for quite awhile!<br style="line-height: 0.5;">
+It will be in development for quite awhile!
+
 BACKGROUND NOTES
 <div style="display: flex; gap: 1rem; margin: 1rem 0;">
   <div style="flex: 1;">
