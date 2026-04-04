@@ -81,7 +81,7 @@ It will be in development for quite awhile!<br>
 <br>
 <b>15:1-16:21	The Seven Bowls</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;15:1-16:17 Angels with 7 plagues receive 7 bowls of wrath to pour onto the earth<br>
-&nbsp;&nbsp;&nbsp;&nbsp;16:2-21 	The angels pour out the bowls upon the kingdom of the beast<br>
+&nbsp;&nbsp;&nbsp;&nbsp;16:2-21 nbsp;&nbsp;&nbsp;&nbsp;The angels pour out the bowls upon the kingdom of the beast<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 1st Bowl	: Ulcers<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 2nd Bowl	: Death in the sea<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:4-7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 3rd Bowl	: Water turns to blood <br>
@@ -98,15 +98,15 @@ It will be in development for quite awhile!<br>
 <br>
 <b>19:11-20:15 The Final Destruction of Evil</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;19:11-21 	The Coming of Christ … armies of men slain, the 2 beasts thrown into the lake of fire<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-10 &nbsp;&nbsp;&nbsp;&nbsp;The Millenium & the Last Battle<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Satan bound, the first resurrection & the martyrs reign with Christ for 1000 years<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-10 &The Millenium & the Last Battle<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:1-6 &nbsp;&nbsp;&nbsp;Satan bound, the first resurrection & the martyrs reign with Christ for 1000 years<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:7-9 &nbsp;&nbsp;&nbsp;&nbsp;Satan is released, starts a last battle against the saints, is defeated & thrown into the fire<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;20:11-15 	The Final Judgement … the second resurrection & the end of death & the grave <br>
 <br>
 <b>21:1-27 	All things made new!</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21:1-8 &nbsp;&nbsp;&nbsp;&nbsp;The new heaven & earth … God’s dwelling place is now among the people!<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21:9-27	The new Jerusalem descending from heaven … for those written in the Book of Life<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;nbsp;&nbsp;&nbsp;&nbsp;21:9-27	The new Jerusalem descending from heaven … for those written in the Book of Life<br>
 <br>
 <b>22:1-21 	The garden city & closing words</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22:1-5 	The river of life & tree of life … God & the Lamb in the garden city!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22:1-5 &nbsp;&nbsp;&nbsp;&nbsp;The river of life & tree of life … God & the Lamb in the garden city!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22:6-21	Last words from John, the angel & Jesus … ‘I am coming soon!’<br>
