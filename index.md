@@ -76,7 +76,8 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:9-10	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parenthesis 	– "Let the listener hear this"<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13:11-18 &nbsp;&nbsp;&nbsp;2nd Beast 	– like a lamb, but with the voice of a dragon<br>
 &nbsp;&nbsp;&nbsp;&nbsp;14:1-5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Lamb with 144000 redeemed men <br>
-&nbsp;&nbsp;&nbsp;&nbsp;14:6-13 &nbsp;&nbsp;&nbsp;3 angels in heaven declaring judgement, condemnation, woe ... then a voice declares a blessing!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;14:6-13 &nbsp;&nbsp;&nbsp;3 angels in heaven declaring judgement, condemnation, woe <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... then a voice declares a blessing!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;14:14-20 &nbsp;The reaping of the harvest of the Earth … by ‘One like a man’ and by an angel<br>
 <br>
 <b>15:1-16:21	The Seven Bowls</b><br>
@@ -105,8 +106,8 @@ It will be in development for quite awhile!<br>
 <br>
 <b>21:1-27 	All things made new!</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21:1-8 &nbsp;&nbsp;&nbsp;&nbsp;The new heaven & earth … God’s dwelling place is now among the people!<br>
-&nbsp;&nbsp;&nbsp;&nbsp;21:9-27	&nbsp;&nbsp;&nbsp;&nbsp;The new Jerusalem descending from heaven … for those written in the Book of Life<br>
+&nbsp;&nbsp;&nbsp;&nbsp;21:9-27	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The new Jerusalem descending from heaven … for those written in the Book of Life<br>
 <br>
 <b>22:1-21 	The garden city & closing words</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22:1-5 &nbsp;The river of life & tree of life … God & the Lamb in the garden city!<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22:6-21	Last words from John, the angel & Jesus … ‘I am coming soon!’<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22:1-5 &nbsp;&nbsp;&nbsp;The river of life & tree of life … God & the Lamb in the garden city!<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22:6-21	&nbsp;Last words from John, the angel & Jesus … ‘I am coming soon!’<br>
