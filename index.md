@@ -57,7 +57,7 @@ It will be in development for quite awhile!<br>
 <br>
 <b>8:3-11:19	The Seven Trumpets</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;8:2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 7 Angels Receive 7 Trumpets<br>
-&nbsp;&nbsp;&nbsp;&nbsp;8:3-6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incense, prayers & fire prepare for the 7 trumpets <br>
+&nbsp;&nbsp;&nbsp;&nbsp;8:3-6 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Incense, prayers & fire prepare for the 7 trumpets <br>
 &nbsp;&nbsp;&nbsp;&nbsp;8:7-11:19	The angels blow the trumpets<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 1st Trumpet : 	hail and fire.<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8:8-9 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 2nd Trumpet : 	blazing mountain <br>
@@ -82,7 +82,7 @@ It will be in development for quite awhile!<br>
 <br>
 <b>15:1-16:21	The Seven Bowls</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;15:1-16:17 Angels with 7 plagues receive 7 bowls of wrath to pour onto the earth<br>
-&nbsp;&nbsp;&nbsp;&nbsp;16:2-21 nbsp;&nbsp;&nbsp;&nbsp;The angels pour out the bowls upon the kingdom of the beast<br>
+&nbsp;&nbsp;&nbsp;&nbsp;16:2-21 &nbsp;&nbsp;&nbsp;&nbsp;The angels pour out the bowls upon the kingdom of the beast<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 1st Bowl	: Ulcers<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 2nd Bowl	: Death in the sea<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16:4-7 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The 3rd Bowl	: Water turns to blood <br>
