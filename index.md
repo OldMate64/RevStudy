@@ -35,8 +35,8 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:8-11 &nbsp;&nbsp;To the ekklèsia in Smyna … the suffering church that will suffer to the point of death<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:12-17 To the ekklèsia in Pergamum … the faithful church that tolerates unholy teaching<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:18-29 To the ekklèsia in Thyatira … the faithful church that tolerates unholy influencers<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:1-6 To the ekklèsia in Sardis …  the dead church with a few who are clean<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:7-13 To the ekklèsia in Philadelphia … the faithful church with opportunities, will be kept safe<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:1-6 &nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Sardis …  the dead church with a few who are clean<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:7-13 &nbsp;&nbsp;To the ekklèsia in Philadelphia … the faithful church with opportunities, will be kept safe<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:14-22 To the ekklèsia in Laodicea … the lukewarm church<br>
 <br>
 <b>4:1-5:14	The Vision of Heaven</b><br>
