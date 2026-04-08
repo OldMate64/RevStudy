@@ -31,7 +31,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:4-8 Ascription, greeting & doxology](https://oldmate64.github.io/RevStudy/Rev_1_4-8.htm)<br>
 <br>
 <b>1:9-3:22	The Messages to the Seven Churches</b><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:9-20 &nbsp;&nbsp;The Vision of Christ … the Son of Man among the lampstands<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:9-20 Preface](https://oldmate64.github.io/RevStudy/Rev_1_9-20.htm)&nbsp;&nbsp;The Vision of Christ … the Son of Man among the lampstands<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:1-7 &nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Ephesus … the loveless church<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:8-11 &nbsp;&nbsp;To the ekklèsia in Smyna … the suffering church that will suffer to the point of death<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:12-17 To the ekklèsia in Pergamum … the faithful church that tolerates unholy teaching<br>
