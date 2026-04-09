@@ -49,13 +49,19 @@
         
         /* 25% Right - Commentary with auto height boxes */
         .commentary-column {
-            flex: 0 0 25%; 
+            flex: 0 0 22%; 
             padding: 5px 5px;
             background: #f0f8ff;
             position: relative;
             height: 100vh;
-            overflow-y: auto;
+            overflow-y: visible;  /* No scrollbar when unneeded */
+            scrollbar-width: none; /* Firefox: hide scrollbar */
+            -ms-overflow-style: none; /* IE/Edge */
             border-left: 3px solid #d4af37;
+        }
+
+        .commentary-column::-webkit-scrollbar {
+            display: none; /* Chrome/Safari */
         }
 
         /* Auto height commentary boxes */
@@ -125,14 +131,78 @@
             flex-shrink: 0;
         }
         .passage-subtitle {
-            text-align: center; 
+            text-align: center !important;
+            margin: 0 !important;
+            flex: 1 !important;  /* ← Fills center space */
             font-size: 1em; 
             color: #0064a2; 
-            margin-bottom: 25px; 
+        }
+
+        .subtitle-row {
+            display: flex !important;
+            justify-content: space-between !important;
+            align-items: center !important;
+            width: 100% !important;
+            gap: 1rem;
+            margin-bottom: 25px;
             border-bottom: 3px solid #d4af37;
             padding-bottom: 15px;
-            flex-shrink: 0;
         }
+
+        .subtitle-links {
+            display: flex !important;
+            gap: 1rem !important;
+            align-items: center !important;
+            margin-left: auto !important;     /* ← THIS PUSHES TO RIGHT */
+            flex-shrink: 0 !important;+
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            font-weight: bold; 
+            line-height: 0.8;
+        }
+
+        .subtitle-left {
+            margin-right: auto !important;
+            font-size: 0.85em;
+            color: #0064a2;
+            text-decoration: none !important;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            font-weight: bold; 
+            line-height: 0.8; 
+        }
+
+        .subtitle-right {
+            margin-left: auto !important;
+            font-size: 0.85em;
+            color: #0064a2;
+            text-decoration: none !important;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.8em;
+            font-weight: bold; 
+            line-height: 0.8; 
+        }
+
+        .subtitle-left:hover, .subtitle-right:hover {
+             color: #028a00 !important;
+            text-decoration: underline !important;
+        }
+
+        .subtitle-links a {
+            font-size: 0.85em !important;
+            color: #0064a2 !important;
+            text-decoration: none !important;
+            font-weight: bold !important;
+            white-space: nowrap !important;
+        }
+
+        .subtitle-links a:hover {
+            color: #028a00;
+            text-decoration: underline !important;
+        }
+
         .bible-text {
             font-size: 1em; 
             line-height: 1.5; 
@@ -140,6 +210,7 @@
             white-space: pre-wrap;
             font-feature-settings: "kern" 1;
         }
+
         .highlight {
             background: #fffdec; 
             padding: 2px 4px; 
