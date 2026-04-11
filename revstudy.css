@@ -266,7 +266,7 @@
             }
             .commentary-column {
                 height: 100dvh; /* Full dynamic viewport */
-                max-height: 50dvh; /* Or 45dvh if too tall */
+                max-height: 100dvh; /* Or 45dvh if too tall */
                 overflow-y: auto !important;
                 min-height: 0;
                 -webkit-overflow-scrolling: touch;
