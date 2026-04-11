@@ -270,16 +270,20 @@
             .page-wrapper { 
                 flex-direction: column; 
                 position: relative;
-                height: auto;
+                height: 100dvh;
             }
             .bible-column { 
-                flex: none; 
+                flex: 1 1 auto;
                 height: auto; 
                 box-shadow: none;
             }
             .commentary-column { 
-                flex: none; 
-                height: 350px; 
+                flex: 0 0 auto;
+                height: auto;
+                max-height: 40dvh;
+                overflow-y: auto;
+                min-height: 0;
+                -webkit-overflow-scrolling: touch;
                 position: relative;
                 border-left: none;
                 border-top: 3px solid #d4af37;
