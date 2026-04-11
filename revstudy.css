@@ -248,10 +248,10 @@
         }
 
         @media (max-width: 1200px) and (orientation: landscape) {
-            .bible-text { font-size: 0.9em !important; }  /* Slightly larger for landscape */
-            .passage-title { font-size: 1.1em !important; }
+            .bible-text { font-size: 0.85em !important; } /* Slightly smaller for landscape */
+            .passage-title { font-size: 1.05em !important; }
             .tooltip {
-                font-size: 0.75em;
+                font-size: 0.8em;
             }
 
             .source {
@@ -263,6 +263,13 @@
             .no-commentary {
                 text-align: center;
                 padding: 20px;
+            }
+            .commentary-column {
+                height: 100dvh; /* Full dynamic viewport */
+                max-height: 50dvh; /* Or 45dvh if too tall */
+                overflow-y: auto !important;
+                min-height: 0;
+                -webkit-overflow-scrolling: touch;
             }
         }
 
