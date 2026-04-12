@@ -356,14 +356,14 @@
                 text-align: center;
                 padding: 20px;
             }
-            .top-links,
+            /*.top-links,
             .passage-title,
             .subtitle-row,
             .passage-subtitle {
-                flex-shrink: 1; /* Allow shrink */
+                flex-shrink: 1; 
                 flex-basis: auto;
                 min-height: 0;
-            }
+            }*/
 
             .bible-text {
                 padding-bottom: 2rem; /* Ensures last lines visible */
