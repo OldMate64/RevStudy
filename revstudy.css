@@ -45,8 +45,6 @@
             overflow-y: auto;
             display: flex;
             flex-direction: column;
-            padding-top: 0;
-            padding-bottom: 1rem; /* Bottom margin for last lines */
         }
         
         /* 25% Right - Commentary with auto height boxes */
@@ -252,21 +250,6 @@
                 text-align: center;
                 padding: 20px;
             }
-            /*.top-links,
-            .passage-title,
-            .subtitle-row,
-            .passage-subtitle {
-                flex-shrink: 1; 
-                flex-basis: auto;
-                min-height: 0;
-            }*/
-
-            .bible-text {
-                padding-bottom: 2rem; /* Ensures last lines visible */
-                margin-bottom: 0;
-                flex-shrink: 1;
-                flex-grow: 1;
-            }
         }
 
         @media (max-width: 1200px) and (orientation: landscape) {
@@ -275,7 +258,7 @@
                 height: 100dvh !important;
                 padding-top: 0;
                 padding-bottom: 1rem; /* Bottom margin for last lines */
-            }
+            }            
             .passage-title { font-size: 1.05em !important; }
             .tooltip {
                 font-size: 0.8em;
@@ -297,21 +280,6 @@
                 overflow-y: auto !important;
                 min-height: 0;
                 -webkit-overflow-scrolling: touch;
-            }
-            /*.top-links,
-            .passage-title,
-            .subtitle-row,
-            .passage-subtitle {
-                flex-shrink: 1; 
-                flex-basis: auto;
-                min-height: 0;
-            }*/
-
-            .bible-text {
-                padding-bottom: 2rem; /* Ensures last lines visible */
-                margin-bottom: 0;
-                flex-shrink: 1;
-                flex-grow: 1;
             }
         }
 
@@ -356,21 +324,7 @@
                 text-align: center;
                 padding: 20px;
             }
-            /*.top-links,
-            .passage-title,
-            .subtitle-row,
-            .passage-subtitle {
-                flex-shrink: 1; 
-                flex-basis: auto;
-                min-height: 0;
-            }*/
 
-            .bible-text {
-                padding-bottom: 2rem; /* Ensures last lines visible */
-                margin-bottom: 0;
-                flex-shrink: 1;
-                flex-grow: 1;
-            }
         }
         .top-links {
             display: flex;
