@@ -54,14 +54,20 @@
             background: #f0f8ff;
             position: relative;
             height: 100vh;
-            overflow-y: visible;  /* No scrollbar when unneeded */
-            scrollbar-width: none; /* Firefox: hide scrollbar */
-            -ms-overflow-style: none; /* IE/Edge */
+            overflow-y: auto; /* CHANGED: Enable scroll everywhere */
+            min-height: 0;
             border-left: 3px solid #d4af37;
         }
 
-        .commentary-column::-webkit-scrollbar {
-            display: none; /* Chrome/Safari */
+        /* Keep scrollbar hidden but scroll works */
+        .commentary-column::-webkit-scrollbar { width: 6px; }
+        .commentary-column::-webkit-scrollbar-track { background: transparent; }
+        .commentary-column::-webkit-scrollbar-thumb { 
+            background: rgba(0,0,0,0.3); 
+            border-radius: 3px;
+        }
+        .commentary-column::-webkit-scrollbar-thumb:hover { 
+            background: rgba(0,0,0,0.5); 
         }
 
         /* Auto height commentary boxes */
