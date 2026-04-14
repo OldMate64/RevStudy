@@ -34,7 +34,7 @@ It will be in development for quite awhile!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:9-20 The Vision of Christ](https://oldmate64.github.io/RevStudy/Rev_1_9-20.htm)&nbsp;&nbsp; … the Son of Man among the lampstands<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2:1-7 &nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Ephesus](https://oldmate64.github.io/RevStudy/Rev_2_1-7.htm) … the loveless church<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2:8-11 &nbsp;&nbsp;To the ekklèsia in Smyna](https://oldmate64.github.io/RevStudy/Rev_2_8-11.htm) … the suffering church that will suffer to the point of death<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:12-17 To the ekklèsia in Pergamum … the faithful church that tolerates unholy teaching<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2:12-17 To the ekklèsia in Pergamum](https://oldmate64.github.io/RevStudy/Rev_2_12-17.htm) … the faithful church that tolerates unholy teaching<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2:18-29 To the ekklèsia in Thyatira … the faithful church that tolerates unholy influencers<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:1-6 &nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Sardis …  the dead church with a few who are clean<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3:7-13 &nbsp;&nbsp;To the ekklèsia in Philadelphia … the faithful church with opportunities, will be kept safe<br>
