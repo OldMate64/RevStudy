@@ -14,6 +14,7 @@ It will be in development for quite awhile!<br>
     &nbsp;&nbsp;&nbsp;&nbsp;> Rabbinic Judaism<br>
     &nbsp;&nbsp;&nbsp;&nbsp;> Jewish Apocalyptic Writings<br>
     - The Context of the Roman Empire<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;> Emperor worship<br>
   </div>
   <div style="flex: 1;">
     <!--### Right Column  -->
@@ -22,6 +23,7 @@ It will be in development for quite awhile!<br>
     &nbsp;&nbsp;&nbsp;&nbsp;> The Early Church<br>
     - Approaches to interpretation<br>
     - How to use these notes
+    - [Resources](https://oldmate64.github.io/RevStudy/Resources.htm)
   </div>
 </div>
 
