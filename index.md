@@ -23,7 +23,7 @@ It will be in development for quite awhile!<br>
     &nbsp;&nbsp;&nbsp;&nbsp;> The Early Church<br>
     - Approaches to interpretation<br>
     - How to use these notes<br>
-    - [Resources](https://oldmate64.github.io/RevStudy/Resources.htm)
+    - <a href="https://oldmate64.github.io/RevStudy/Resources.htm">Resources</a><br>
   </div>
 </div>
 
