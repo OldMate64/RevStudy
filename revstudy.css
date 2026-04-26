@@ -232,6 +232,28 @@
             transform: scale(1.03);
             box-shadow: 0 2px 8px rgba(0,0,0,0.2);
         }
+
+        .inner-highlight {
+            background: inherit;
+            padding: 1px 3px;
+            border-radius: 3px;
+            cursor: pointer;
+            border-bottom: 1px dotted #4b9cd3;
+            color: #5dccff;          /* blue */
+            text-decoration: none;
+            display: inline;
+            transition: all 0.2s ease;
+        }
+
+        .inner-highlight:hover {
+            background: #cfefff;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+        }
+
+        .tooltip-content .inner-highlight {
+            display: inline;
+            white-space: normal;
+        }
         
         /* Mobile-first: smaller fonts up to 1024px */
         @media (max-width: 1024px) and (orientation: portrait) {
