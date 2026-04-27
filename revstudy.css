@@ -102,6 +102,19 @@
             line-height: 1.4;
             max-width: 350px;  /* Slight increase helps */
         }
+
+        /* Reset list indentation in your tooltips */
+        .tooltip-content ul {
+          /*list-style-position: inside; /* Keeps the bullet inside the flow of the text */
+          padding-left: 1em;             /* Removes default browser padding */
+          margin-left: 0;              /* Removes default browser margin */
+        }
+
+        .tooltip-content li {
+          margin-left: 0;              /* Ensures list items start at the left edge */
+          padding-left: 0.2em;             /* Removes any extra padding on the item itself */
+        }
+
         .tooltip-content a {
             display: inline-block !important;
         }    
