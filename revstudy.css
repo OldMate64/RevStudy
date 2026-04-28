@@ -36,7 +36,7 @@
         
         /* 75% Left - Biblical passage */
         .bible-column {
-            flex: 0 0 73%; 
+            flex: 0 0 70%; 
             background: white; 
             padding: 0px 10px; 
             box-shadow: 5px 0 20px rgba(0,0,0,0.1);
@@ -56,6 +56,8 @@
             height: 100vh;
             overflow-y: auto; /* CHANGED: Enable scroll everywhere */
             min-height: 0;
+            min-width: 0;
+            overflow-x: hidden;
             border-left: 3px solid #d4af37;
         }
 
@@ -72,22 +74,29 @@
 
         /* Auto height commentary boxes */
         .tooltip {
+            position: absolute !important;
+            left: 5px !important;
+            right: 5px !important;
             opacity: 0;
             background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #1a252f 100%); 
             color: white; 
             padding: 12px; 
-            margin: 10px auto;
+            width: auto !important;
+            margin: 0 !important;
+            box-sizing: border-box !important;
             border-radius: 8px;
             font-size: 0.9em; 
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
-            display: inline-block !important;  /* NEW */
-            flex-direction: row !important;    /* NEW - inline flow */
+            display: block !important;
+            flex-direction: row !important;
             align-items: flex-start !important;
             flex-wrap: wrap !important;
-            max-width: 90%;
+            max-width: calc(100% - 10px) !important;
             height: auto;
             max-height: none;
+            min-width: 0;
+            overflow-x: hidden !important;
             overflow-y: auto;
             transform: translateY(20px);
             visibility: hidden;
@@ -100,7 +109,12 @@
         .tooltip-content {
             flex: 1;
             line-height: 1.4;
-            max-width: 350px;  /* Slight increase helps */
+            min-width: 0;
+            max-width: 100% !important;
+            overflow-wrap: break-word !important;
+            word-wrap: break-word !important;
+            display: block !important;
+            word-break: normal;
         }
 
         /* Reset list indentation in your tooltips */
