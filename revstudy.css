@@ -1,4 +1,4 @@
-    <style>
+
         * { 
             box-sizing: border-box; 
             margin: 0; 
@@ -49,57 +49,54 @@
         
         /* 25% Right - Commentary with auto height boxes */
         .commentary-column {
-            flex: 0 0 25%; 
+            flex: 0 0 30%; 
             padding: 5px 5px;
             background: #f0f8ff;
             position: relative;
             height: 100vh;
-            overflow-y: auto; /* CHANGED: Enable scroll everywhere */
-            min-height: 0;
-            min-width: 0;
+            overflow-y: auto; 
             overflow-x: hidden;
             border-left: 3px solid #d4af37;
+
+            /* Hides scrollbar for Firefox */
+            scrollbar-width: none; 
+    
+            /* Hides scrollbar for IE, Edge (Old), and Firefox */
+            -ms-overflow-style: none;
         }
 
-        /* Keep scrollbar hidden but scroll works */
-        .commentary-column::-webkit-scrollbar { width: 6px; }
-        .commentary-column::-webkit-scrollbar-track { background: transparent; }
-        .commentary-column::-webkit-scrollbar-thumb { 
-            background: rgba(0,0,0,0.3); 
-            border-radius: 3px;
-        }
-        .commentary-column::-webkit-scrollbar-thumb:hover { 
-            background: rgba(0,0,0,0.5); 
-        }
+        /* This forces the scrollbar to disappear on Chrome, Edge, and Safari */
+.commentary-column::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0px !important;
+    display: none !important
+}
+
+/* Also hide the track and thumb specifically to be safe */
+.commentary-column::-webkit-scrollbar-track,
+.commentary-column::-webkit-scrollbar-thumb {
+    background: transparent !important;
+    display: none !important;
+}
 
         /* Auto height commentary boxes */
         .tooltip {
-            position: absolute !important;
-            left: 5px !important;
-            right: 5px !important;
+            position: relative !important; /* Changed from absolute to relative */
             opacity: 0;
             background: linear-gradient(135deg, #2c3e50 0%, #34495e 50%, #1a252f 100%); 
             color: white; 
-            padding: 12px; 
-            width: auto !important;
-            margin: 0 !important;
-            box-sizing: border-box !important;
+            padding: 15px; 
+            width: 100% !important; /* Ensure it takes full available width */
+            margin: 10px 0 !important; /* Add vertical spacing between tooltips if needed */
+            box-sizing: border-box !important; /* Crucial for including padding in width */
             border-radius: 8px;
             font-size: 0.9em; 
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
             display: block !important;
-            flex-direction: row !important;
-            align-items: flex-start !important;
-            flex-wrap: wrap !important;
-            max-width: calc(100% - 10px) !important;
-            height: auto;
-            max-height: none;
-            min-width: 0;
-            overflow-x: hidden !important;
-            overflow-y: auto;
             transform: translateY(20px);
             visibility: hidden;
+            overflow-wrap: break-word; /* Forces long words/links to wrap */
         }
         .tooltip.fade-in {
             opacity: 1;
@@ -107,14 +104,11 @@
             visibility: visible;
         }
         .tooltip-content {
-            flex: 1;
             line-height: 1.4;
-            min-width: 0;
-            max-width: 100% !important;
+            width: 100%;
+            display: block !important;
             overflow-wrap: break-word !important;
             word-wrap: break-word !important;
-            display: block !important;
-            word-break: normal;
         }
 
         /* Reset list indentation in your tooltips */
@@ -406,4 +400,3 @@
             .link-right {
                 margin-left: auto;
             }
-    </style>
