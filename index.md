@@ -34,7 +34,7 @@ It will be in development for quite awhile!<br>
 <br>
 <b>1:9-3:22	The Messages to the Seven Churches</b><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:9-20 The Vision of Christ&nbsp;&nbsp; … *Write ... & send it to the seven churches!*<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:9-11 &nbsp;&nbsp;&nbsp;&nbsp;I heard a Voice behind me](https://oldmate64.github.io/RevStudy/Rev_1_9-11.htm)&nbsp;&nbsp; … "Write what you see"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:9-11 &nbsp;&nbsp;&nbsp;I heard a Voice behind me](https://oldmate64.github.io/RevStudy/Rev_1_9-11.htm)&nbsp;&nbsp; … "Write what you see"<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:12-16 &nbsp;I turned to see the Voice](https://oldmate64.github.io/RevStudy/Rev_1_12-16.htm)&nbsp;&nbsp; … the Son of Man among the lampstands<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1:17-20 Commission & interpretation](https://oldmate64.github.io/RevStudy/Rev_1_17-20.htm)&nbsp;&nbsp; … Fear not - I have the keys of Death & Hades!<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2:1-7 &nbsp;&nbsp;&nbsp;&nbsp;To the ekklèsia in Ephesus](https://oldmate64.github.io/RevStudy/Rev_2_1-7.htm) … the loveless church<br>
