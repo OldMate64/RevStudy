@@ -17,7 +17,7 @@
             <div class="passage-title">Revelation 1:1-3 (RSV)</div>
             <div class="subtitle-row">
                 <a href="Rev_1_1-3.docx" download class="subtitle-left">Download passage</a>
-                <div class="passage-subtitle">A prologue to the letter</div>
+                <div class="passage-subtitle">A <span class="highlight" data-tooltip="prologue">prologue</span> to the letter</div>
                 <a href="Rev_1_1-3 example.pdf" download class="subtitle-right">Example annotation</a>
             </div>
             <div class="bible-text">The <span class="highlight" data-tooltip="revelation">revelation</span> of <span class="highlight" data-tooltip="jesus-christ">Jesus Christ</span>, 
@@ -47,19 +47,29 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
 
     <script>
         const tooltips = {
+            prologue: `<div class="tooltip-content">The first 3 verses come before the letter properly begins in the 1st person in v.4.<br>
+                        Numerous commentators have suggested these verses were added after the letter was written, either by: 
+                        <ul><li>John the author<br>or</li> 
+                        <li> by others (as these verses are written in the 3rd person), such as the leaders of the seven churches, or perhaps of 
+                        the largest and most influential of them, the church in Ephesus, seeking to give their own endorsement to the letter 
+                        and its prophetic revlations within.</li></ul><br>
+                        There is a similar 'third person endorsement' in an epilogue seemingly appended to John's Gospel 
+                        <a href="https://www.biblegateway.com/passage/?search=John%2021%3A24-25&version=RSV" target="_blank" rel="noopener">21:24-25</a>, 
+                        which was also very likely written and first disseminated in Ephesus late in the 1st century. 
+                        </div>`,
             revelation: `<div class="tooltip-content">'Apokalypsis' (ἀποκάλυψις) means "unveiling" or "disclosure". <br>
                         This is a revelation both *from Jesus* and *of Jesus*. He is both the source and the key subject of the revelation.<br> 
                         Parallels <a href="https://www.biblegateway.com/passage/?search=Daniel%202%3A28-29&version=RSV" target="_blank" rel="noopener">Daniel 2:28-29 (LXX)</a>.</div>
                         <div class="source">- Jewish apocalyptic tradition & Scott McKnight</div>`,
             'jesus-christ': `<div class="tooltip-content">'Jesus' appears 14 times in Revelation. <br>
                         'Christ' appears 7 times in Revelation.<br>
-                        Use of 7 (& its multiples) in apocalyptic literature evokes or implies completeness, perfection, and totality.</div>
-                        <div class="source">- text of Revelation</div>`,
+                        Use of 7 (& its multiples) in apocalyptic literature evokes or implies completeness, perfection, and totality.
+                        </div>`,
             'god-gave': `<div class="tooltip-content">Emphasizes divine initiative - revelation comes by God sovereignly choosing to reveal, not by human efforts to discover ultimate reality.
-                        Cf. <a href="https://www.biblegateway.com/passage/?search=Amos%203%3A7&version=RSV" target="_blank" rel="noopener">Amos 3:7</a> (God reveals to prophets).<br>
+                        <a href="https://www.biblegateway.com/passage/?search=Amos%203%3A7&version=RSV" target="_blank" rel="noopener">(cf. Amos 3:7)</a>.<br>
                         This also echoes Jesus' own assertion in John's Gospel that "My teaching is not my own, but his who sent me." 
-                        (<a href="https://www.biblegateway.com/passage/?search=John%207%3A16&version=RSV" target="_blank" rel="noopener">John 7:16</a>).</div>
-                        <div class="source">- Rabbinic theology</div>`,
+                        <a href="https://www.biblegateway.com/passage/?search=John%207%3A16&version=RSV" target="_blank" rel="noopener">(John 7:16)</a>.
+                        </div>`,
             servants: `<div class="tooltip-content">Servants (τοῖς δούλοις) ≈ 'slaves'. Many 'servants' of God are identified in the OT 
                         (including <a href="https://www.biblegateway.com/passage/?search=Gen%2026%3A24&version=RSV" target="_blank" rel="noopener">Abraham</a>, 
                         <a href="https://www.biblegateway.com/passage/?search=Is%2044%3A1-2&version=RSV target="_blank" rel="noopener">Jacob</a>, 
@@ -77,27 +87,33 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
                         <div class="source">- 
                         <a href="https://www.biblegateway.com/passage/?search=Exod%2014%3A31&version=RSV" target="_blank" rel="noopener">Exod 14:31</a>,      
                         <a href="https://www.biblegateway.com/passage/?search=Num%2012%3A7&version=RSV" target="_blank" rel="noopener">Num 12:7</a>,            
-                        <a href="https://www.biblegateway.com/passage/?search=Deut%2034%3A5&version=RSV" target="_blank" rel="noopener">Deut 34:5</a>, 
+                        <a href="https://www.biblegateway.com/passage/?search=Deut%2034%3A5&version=RSV" target="_blank" rel="noopener">Deut 34:5</a>,<br> 
                         <a href="https://www.biblegateway.com/passage/?search=col%201%3A7-8&version=RSV" target="_blank" rel="noopener">Acts 16:17</a>, 
                         <a href="https://www.biblegateway.com/passage/?search=col%201%3A7-8&version=RSV" target="_blank" rel="noopener">Col 1:7-8</a>, 
                         <a href="https://www.biblegateway.com/passage/?search=Eph%206%3A6&version=RSV" target="_blank" rel="noopener">Eph 6:6</a></div>`,
-            must: `<div class="tooltip-content">'Must' (δεῖ) signifies an absolute divine necessity, indicating the events to be described are decreed by God's will. It echoes the LXX of
+            must: `<div class="tooltip-content">'Must' (δεῖ ≈ 'dei') signifies an absolute divine necessity, indicating the events to be described are decreed by God's will. It echoes the 
+                        <a href="https://www.blueletterbible.org/lxx/dan/2/1/s_852001#:~:text=%CE%9D%CE%B1%CE%B2%CE%BF%CF%85%CF%87%CE%BF%CE%B4%CE%BF%CE%BD%CE%BF%CF%83%CE%BF%CF%81-,%E1%BC%83,%CE%B3%CE%B5%CE%BD%E1%BD%B3%CF%83%CE%B8%CE%B1%CE%B9,-%E1%BC%90%CF%80" target="_blank" rel="noopener">LXX</a> of
                         <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>. However, while Daniel looked toward
-                        the end of days, John's 'must' here signals the promised plan is finally being enacted. John's 'must' also echoes Jesus' δεῖ when he spoke of the necessity that his
-                        life and death 'must' fulfil all Scripture (eg. <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">Luke 24:44</a>) 
-                        </div>
-                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>, 
-                            <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">Luke 24:44</a></div>`, 
-            soon: `<div class="tooltip-content">Urgent eschatology is typical of apocalyptic literature (<a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">Dan 2:28</a>). <br>
-                              'Soon' (ἐν τάχει ≈ 'quickly') is to be measured in God's 'kairos' time, not necessarily imminent 'chronos' time. 
-                              However, the sense of imminence ('quickly') also suggests the revelation is directly relevant to John's contemporaries,
+                        <a href="https://www.blueletterbible.org/lxx/dan/2/1/s_852001#:~:text=%CE%B3%CE%B5%CE%BD%E1%BD%B3%CF%83%CE%B8%CE%B1%CE%B9-,%E1%BC%90%CF%80,%E1%BC%A1%CE%BC%CE%B5%CF%81%E1%BF%B6%CE%BD,-%CF%84%E1%BD%B8" target="_blank" rel="noopener">'the end of days'</a>, 
+                        John's 'must' here signals the promised plan is being enacted 'soon' (ἐν τάχει ≈ 'en tachei' ≈ quickly / soon). 'Must' here also echoes Jesus' 
+                        <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=THGNT#:~:text=%CF%83%E1%BD%BA%CE%BD%20%E1%BD%91%CE%BC%E1%BF%96%CE%BD%20%E1%BD%85%CF%84%CE%B9-,%CE%B4%CE%B5%E1%BF%96,-%CF%80%CE%BB%CE%B7%CF%81%CF%89%CE%B8%E1%BF%86%CE%BD%CE%B1%CE%B9%20%CF%80%CE%AC%CE%BD%CF%84%CE%B1%20%CF%84%E1%BD%B0" target="_blank" rel="noopener">δεῖ</a> 
+                        when he spoke of the necessity that his life and death 'must' fulfil all Scripture 
+                        <a href="https://www.biblegateway.com/passage/?search=Luke%2024%3A44&version=RSV" target="_blank" rel="noopener">(cf. Luke 24:44)</a>. 
+                        </div>`, 
+            soon: `<div class="tooltip-content">Urgent eschatology is typical of apocalyptic literature 
+                              <a href="https://www.biblegateway.com/passage/?search=Dan%202%3A28&version=RSV" target="_blank" rel="noopener">(Dan 2:28)</a>. <br>
+                              'Soon' (ἐν τάχει ≈ 'en tachei' ≈ 'quickly') is to be measured in God's 
+                              <a href="https://www.theologyofwork.org/the-high-calling/living-kairos-life-chronos-world#:~:text=the%20New%20Testament%E2%80%94-,kairos,-.%20This%20speaks%20more" target="_blank" rel="noopener">'kairos'</a> 
+                              time, not necessarily impending 
+                              <a href="https://www.theologyofwork.org/the-high-calling/living-kairos-life-chronos-world#:~:text=familiar%E2%80%94-,chronos,-.%20It%20means" target="_blank" rel="noopener">'chronos'</a> 
+                              time. 
+                              However, the sense of imminence ('quickly') does suggest the revelation is directly relevant to John's contemporaries,
                               not only or even primarily for those living 2 millenia later!</div>
-                        <div class="source">- <a href="https://www.tparents.org/Library/Unification/Books/KingJames/Kjap/4-Ezra.htm" target="_blank" rel="noopener">4 Ezra 14:46</a></div>`,
+                        <div class="source">- <a href="https://www.theologyofwork.org/the-high-calling/living-kairos-life-chronos-world" target="_blank" rel="noopener">"Living a Kairos Life in a Chronos World"</a>, Theology of Work blog</div>`,
             angel: `<div class="tooltip-content">Mediating angels are common in Jewish apocalypses (
                    <a href="https://www.ccel.org/c/charles/otpseudepig/enoch/ENOCH_1.HTM" target="_blank" rel="noopener">1 Enoch,</a> 
                    <a href="https://www.biblegateway.com/passage/?search=Dan%2010&version=RSV" target="_blank" rel="noopener">Daniel 10</a>). <br>
-                   This is not the Holy Spirit.<br>
-                   "At this time in history men ... felt direct communication between God and man was impossible and that                there must always be some intermediary. 
+                   As Barclay notes,"At this time in history men ... felt direct communication between God and man was impossible and that                there must always be some intermediary. 
                    In the OT story Moses received the Law directly from the hands of God 
                    (<a href="https://www.biblegateway.com/passage/?search=Ex%2019&version=RSV" target="_blank" rel="noopener">Exod 19:1-25</a>; 
                     <a href="https://www.biblegateway.com/passage/?search=Ex%2020&version=RSV" target="_blank" rel="noopener">20:1-26</a>); but twice in the NT it is said that 
@@ -106,18 +122,30 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
                     <a href="https://www.biblegateway.com/passage/?search=Gal%203%3A19&version=RSV" target="_blank" rel="noopener">Gal 3:19</a>)." 
                     </div>
                    <div class="source">- <a href="https://www.studylight.org/commentaries/eng/dsb/revelation-1.html#:~:text=Jesus%20sends%20that%20truth%20to%20John%20through%20his%20angel" target="_blank" rel="noopener">Barclay's commentary</a>, 
-                    <a href="https://sacred-texts.com/bib/fbe/fbe272.htm" target="_blank" rel="noopener">Testament of Levi 2:7</a></div>`,
+                    <a href="https://sacred-texts.com/bib/fbe/fbe272.htm#:~:text=were%20opened%2C%20and-,an%20angel%20of%20God,-said%20to%20me" target="_blank" rel="noopener">Testament of Levi 1:9f</a></div>`,
             servant: `<div class="tooltip-content">Here 'servant' seems a deliberate echo of the role of Moses & the prophets, 
-                     identifying John as prophetic successor.</div>
-                     <div class="source">- 
-                        <a href="https://www.biblegateway.com/passage/?search=Exod%2014%3A31&version=RSV" target="_blank" rel="noopener">Exod 14:31</a>
-                        </div>`,
-            john: `<div class="tooltip-content">Second century writers all identify John as the son of Zebedee, exiled to Patmos. (eg. Irenaeus). <br>
+                     identifying John as prophetic successor.
+                     </div>
+                     <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Numbers%2012%3A7-8&version=RSV" target="_blank" rel="noopener">Numbers 12:7-8</a>, 
+                    <a href="https://www.biblegateway.com/passage/?search=Amos%203%3A7&version=RSV" target="_blank" rel="noopener">Amos 3:7</a></div>`,
+            john: `<div class="tooltip-content">Second century writers all identify John as the son of Zebedee, exiled to Patmos. <br>
                   However, subsequent commentators suggested it was another John, due largely to linguistic & stylistic differences, though the Gospel 
-                  and Revelation share numerous themes. It could be John used a different amanuensis (or that he wrote 1 and an amanuensis wrote the other.<br>
-                  The startling thing for contemporary readers is that this apocalyptic book is not ascribed to a long-dead saint (like almost all Jewish apocalyptic texts), 
-                    -but to 'I, John, your brother ...', who was most likely known to the seven churches it is addressed to.   </div>
-                  <div class="source">- <a href="https://www.newadvent.org/fathers/0103530.htm" target="_blank" rel="noopener">Against Heresies 5.30.3</a></div>`,
+                  and Revelation share numerous themes.<br>
+                  It could be John used a different amanuensis (or that he wrote 1 and an amanuensis wrote the other. Alternatively, it could be a different John who was 
+                  very familiar with the writings (and perhaps direct preaching and teaching) of John the Apostle.<br>
+                  In either case, the startling thing for contemporary readers is that this apocalyptic book is not ascribed to a long-dead saint (like almost all Jewish apocalyptic texts), 
+                  but to 'I, John, your brother ...', who was most likely known to the seven churches it is addressed to.   </div>
+                  <div class="source">- early relevant sources include: 
+                        <ul class="indent-8mm"><li>Justin Martyr (~ AD 160), 
+                        <a href="https://www.earlychristianwritings.com/text/justinmartyr-dialoguetrypho.html#:~:text=John%2C%20one%20of%20the%20apostles%20of%20Christ" target="_blank" rel="noopener">Dialogue with Trypho 81 (PG 6:709)</a></li>
+                        <li>Irenaeus (~ AD 180), 
+                        <a href="http://www.gnosis.org/library/advh4.htm#:~:text=John%20also%2C%20the%20Lord%27s%20disciple" target="_blank" rel="noopener">Against Heresies 4.20.11</a></li>
+                        <li>Muratorian Fragment (~ AD c. 170-200) - states 
+                        <a href="https://www.earlychristianwritings.com/text/muratorian-metzger.html#:~:text=John%2C%20%5Bone%5D%20of%20the%20disciples" target="_blank" rel="noopener">John wrote the Gospel</a> & implies the same 
+                        <a href="https://www.earlychristianwritings.com/text/muratorian-metzger.html#:~:text=John%20also%20in%20the%20(58)%20Apocalypse" target="_blank" rel="noopener">John wrote the Apocalypse</a></li> 
+                        <li>Dionysius of Alexandria (died ~ AD 265) had his writings preserved in Eusebius' Ecclesiastical History (~ AD 323), and was the first to question the 
+                        <a href="https://www.newadvent.org/fathers/250107.htm#:~:text=the%20apostle%2C%20the%20son%20of%20Zebedee" target="_blank" rel="noopener">Apostle's authorship</a> of Revelation</li></ul>
+                        </div>`,
             witness: `<div class="tooltip-content">The theme of witness is very prominent throughout Revelation.<br>
                         Jesus is described as 'the witness, the faithful one',<br>
                         John here 'bore witness' in writing this book,
@@ -125,13 +153,16 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
                         The word 'witness' appears about 29 times throughout the book, often tied to themes of testimony, faithfulness, and martyrdom.</div>
                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Dan%208%3A1&version=RSV" target="_blank" rel="noopener">Dan 8:1</a></div>`,
             'word-god': `<div class="tooltip-content">John here pairs the 'word of God' with the 'testimony of Jesus'. Given Hebrew and rabbinic habits of parallelism, repetition, 
-                        and synonymous pairing, the most natural reading is that John is using semantic overlap with emphasis, not setting up a strict contrast between these 2 concepts. 
+                        and synonymous pairing, the most natural reading is that John is using semantic overlap with emphasis, not setting up a strict contrast between these 2 concepts.<br>
                         These phrases refer to the same reality from two angles: divine revelation from God (continuous with 'the word of the Lord' that came to the OT prophets) extended to 
                         include that the revelation mediated through and centered on Jesus, both directly (to the apostles) and and through the Gospels.<br>
                         The parallelism here may also allude to Jesus' identity as 'the Word of God' 
-                        (<a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">19:13</a>). 
+                        <a href="https://www.biblegateway.com/passage/?search=Rev%2019%3A13&version=RSV" target="_blank" rel="noopener">(19:13)</a>. 
                         This pairing may also ontribute to the double witness structure required by the Torah.</div>
-                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=John%201&version=RSV" target="_blank" rel="noopener">John 1:1-18</a>, 
+                        <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Isa%2038%3A4&version=RSV" target="_blank" rel="noopener">Isa 38:4</a>, 
+                            <a href="https://www.biblegateway.com/passage/?search=Ezek%201%3A3&version=RSV" target="_blank" rel="noopener">Ezek 1:3</a>, 
+                            <a href="https://www.biblegateway.com/passage/?search=Hos%201%3A1&version=RSV" target="_blank" rel="noopener">Hos 1:1</a>, 
+                            <a href="https://www.biblegateway.com/passage/?search=John%201&version=RSV" target="_blank" rel="noopener">John 1:1-18</a>, 
                             <a href="https://www.biblegateway.com/passage/?search=Deut%2018%3A18&version=RSV" target="_blank" rel="noopener">Deut 18:18</a></div>`,
             'testimony-jesus': `<div class="tooltip-content">This could refer to Jesus' teaching (from the Gospels) and/or the apostolic preaching and teaching (including the Gospels), 
                               and/or John's own eyewitness testimony about Jesus in this 'apokalypsis'. 
@@ -139,7 +170,7 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
                         <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Num%2035%3A30&version=RSV" target="_blank" rel="noopener">Num 35:30</a>, 
                             <a href="https://www.biblegateway.com/passage/?search=Deut%2019%3A15&version=RSV" target="_blank" rel="noopener">Deut 19:15</a></div>`,
             'all-saw': `<div class="tooltip-content">John here equates 'the word of God', 'the testimony of Jesus' and 'all he saw'. 
-                       He perceives that what he 'saw' is continuous (even the fulfillment of) the 'word of God' 
+                       He perceives that what he 'saw' as continuous with (even perhaps the fulfillment of) the 'word of God' 
                        embodied in the prophetic tradition of Israel, and the 'testimony of Jesus' (both the teaching of Jesus and 
                        the teaching about Jesus) in the Gospels.<br>
                        His language emphasises the visionary nature of the revelation John received - he saw/heard what he reports. <br>
@@ -152,12 +183,12 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
                      <a href="https://www.biblegateway.com/passage/?search=Rev%2020%3A6&version=RSV" target="_blank" rel="noopener">20:6</a>, 
                      <a href="https://www.biblegateway.com/passage/?search=Rev%2022%3A7&version=RSV" target="_blank" rel="noopener">22:7</a> & 
                      <a href="https://www.biblegateway.com/passage/?search=Rev%2022%3A14&version=RSV" target="_blank" rel="noopener">22:14</a>. <br>
-                     They follow the classical makarismos formula (eg. 
-                     <a href="https://www.biblegateway.com/passage/?search=Ps%201%3A1&version=RSV" target="_blank" rel="noopener">Ps 1:1</a>), 
+                     They follow the classical makarismos formula 
+                     <a href="https://www.biblegateway.com/passage/?search=Ps%201%3A1&version=RSV" target="_blank" rel="noopener">(eg. Ps 1:1)</a>, 
                      generally pronouncing blessings for obedience.<br>
                      This first blessing is 3-fold - the apocalyptic use of 3s emphasises transcendence and completeness. 
                      Here it highlights the spiritual source and nature of these blessings.</div>
-                     <div class="source">- Jewish wisdom tradition</div>`,
+                     <div class="source">- <a href="https://thegreatunveilling.files.wordpress.com/2021/02/how-numbers-work.pdf" target="_blank" rel="noopener">"Numbers in Apocalyptic"</a> article</div>`,
             reads: `<div class="tooltip-content">Liturgical reading aloud in the ekklesia is expected. Literacy levels among 
                    the lower Gentile classes in Asia Minor was very limited, and many in these churches would rely upon a more
                    literate member to read aloud from the OT Scripture, the Gospels, apostolic epistles and other writings.<br> 
@@ -166,7 +197,7 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
             prophecy: `<div class="tooltip-content">Not mere prediction but God's revealed word requiring response. 
                       Biblical prophecy was generally forth-telling the heart and will of God, rather than predictive statements about the future.<br>
                       Prediction is included where it adds weight to the exhortations and warnings given by the prophet. Hence prophecy is a 'word that demands obedience.'</div>
-                      <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Jer%201%3A12&version=RSV" target="_blank" rel="noopener">Jer 1:12</a></div>`,
+                      <div class="source">- <a href="https://www.biblegateway.com/passage/?search=2%20sam%2012%3A9-15&version=RSV" target="_blank" rel="noopener">2 Sam 12:9-15</a></div>`,
             hear: `<div class="tooltip-content">Not passive hearing but obedient response (as in 
                     <a href="https://www.biblegateway.com/passage/?search=Deuteronomy%206%3A4-9&version=RSV" target="_blank" rel="noopener">the Shema</a>). <br>
                   Double blessing for hearers/doers.</div>
@@ -184,11 +215,16 @@ and blessed are those who <span class="highlight" data-tooltip="hear">hear</span
                   6 - to all who hear and <br>   
                   7 - to all who keep it.<br>
                   Use of 7s in apocalyptic literature evokes or implies completeness, perfection, and totality.</div>
-                  <div class="source">- cf. <a href="https://www.biblegateway.com/passage/?search=Gen%2017%3A9&version=RSV" target="_blank" rel="noopener">Gen 17:9</a></div>`,
+                  <div class="source">- cf. <a href="https://www.biblegateway.com/passage/?search=Gen%2017%3A9&version=RSV" target="_blank" rel="noopener">Gen 17:9</a>, 
+                    <a href="https://thegreatunveilling.files.wordpress.com/2021/02/how-numbers-work.pdf" target="_blank" rel="noopener">"Numbers in Apocalyptic"</a> article</div>`,
             'time-near': `<div class="tooltip-content">Imminent expectation - "at hand" language of Daniel/the prophets. 
-                         The time here is God's 'kairos' (καιρός) time, not 'chronos' (χρόνος) calendar time.
-                         However, the sense of imminence ('near') also suggests the revelation is directly relevant to John's contemporaries in their current 'tribulations',
-                         not only or even primarily for those living 2 millenia later!</div>
+                         The time here is God's 
+                         <a href="https://www.theologyofwork.org/the-high-calling/living-kairos-life-chronos-world#:~:text=the%20New%20Testament%E2%80%94-,kairos,-.%20This%20speaks%20more" target="_blank" rel="noopener">'kairos'</a> 
+                        (καιρός) time, not 
+                        <a href="https://www.theologyofwork.org/the-high-calling/living-kairos-life-chronos-world#:~:text=familiar%E2%80%94-,chronos,-.%20It%20means" target="_blank" rel="noopener">'chronos'</a> 
+                        (χρόνος) calendar time.
+                         However, the repeated sense of imminence ('soon ... near') strongly suggests the revelation is directly relevant to John's contemporaries in their current 'tribulations',
+                         not only or definitely not primarily for those living 2 millenia later!</div>
                          <div class="source">- <a href="https://www.biblegateway.com/passage/?search=Zeph%201%3A14&version=RSV" target="_blank" rel="noopener">Zeph 1:14</a></div>`
         };
 

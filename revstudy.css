@@ -136,6 +136,13 @@
             padding-top: 6px;
             flex-shrink: 0;
         }
+
+        .indent-8mm {
+            padding-left: 8mm;  /* Indents bullets + text */
+            /* OR use margin-left: 5mm; if you prefer */
+        }
+
+
         .no-commentary {
             color: #7f8c8d;
             font-style: italic;
