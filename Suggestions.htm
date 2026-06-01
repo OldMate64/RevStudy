@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="revstudy.css">
+    <title>Suggestions</title>
+</head>
+<body>
+    <div style="width: 600px; margin: 0 auto;">
+        <div class="passage-title" style="padding: 12px 0;">Suggestions</div>
+
+        <form action="https://api.web3forms.com/submit" method="POST" style="display:flex; justify-content:center; align-items:center;">
+            <input type="hidden" name="access_key" value="a517bb96-17fd-4782-91f4-48f08e10214e">
+            <input type="hidden" name="subject" id="subject" value="Suggestion from Revelation page">
+
+            <p style="text-align:center; font-size:20px;">
+                Name: <input type="text" name="name" required><br>
+                Email: <input type="email" name="email" required><br><br>
+                Suggestions for improvement regarding<br>
+                the page for <span id="pageName"></span>:
+                <textarea name="message" required style="width:600px; height:300px;"></textarea><br>
+                <button type="submit">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" onclick="window.close()">Close</button>
+            </p>
+        </form>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const page = params.get("page") || "this page";
+
+        document.getElementById("pageName").textContent = page;
+        document.getElementById("subject").value = "Re " + page;
+        document.title = page + " - Suggestions";
+        document.querySelector(".passage-title").textContent = page + " - Suggestions";
+    </script>
+</body>
+</html>
