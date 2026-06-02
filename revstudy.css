@@ -66,18 +66,18 @@
         }
 
         /* This forces the scrollbar to disappear on Chrome, Edge, and Safari */
-.commentary-column::-webkit-scrollbar {
-    width: 0px !important;
-    height: 0px !important;
-    display: none !important
-}
+        .commentary-column::-webkit-scrollbar {
+            width: 0px !important;
+            height: 0px !important;
+            display: none !important
+        }
 
-/* Also hide the track and thumb specifically to be safe */
-.commentary-column::-webkit-scrollbar-track,
-.commentary-column::-webkit-scrollbar-thumb {
-    background: transparent !important;
-    display: none !important;
-}
+        /* Also hide the track and thumb specifically to be safe */
+        .commentary-column::-webkit-scrollbar-track,
+        .commentary-column::-webkit-scrollbar-thumb {
+            background: transparent !important;
+            display: none !important;
+        }
 
         /* Auto height commentary boxes */
         .tooltip {
@@ -164,6 +164,7 @@
             padding-bottom: 0px;
             flex-shrink: 0;
         }
+
         .passage-subtitle {
             text-align: center !important;
             margin: 0 !important;
@@ -451,3 +452,14 @@
             width: 50%;       /* Any explicit width value */
             margin: 0 auto;   /* 0 for top/bottom, auto for left/right */
         }
+
+        .suggestions-title {
+            text-align: center; 
+            font-size: 1.5em; 
+            color: #843300; 
+            margin-bottom: 0px; 
+            padding-bottom: 0px;
+            flex-shrink: 0;
+        }
+        
+        
