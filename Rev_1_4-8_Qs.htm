@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="revstudy.css">
+    <title>Questions</title>
+</head>
+<body>
+    <div style="width: 460px; margin: 0 auto;">
+        <div class="suggestions-title" style="padding: 12px 0; font-size: 20px; font-weight: bold;">Questions Revelation is asking me ...</div>
+
+        <div class="subtext-Qs">
+                    <ul style="list-style-position: inside; font-weight: normal"><li>'Grace & peace' is a blessing from God we are<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;meant to experience.<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What has been stopping me from experiencing<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;His grace & peace lately?<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is 1 thing I can do about that?</li><br>
+                    <li>We are also meant to be a channel of God's grace<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& peace to others, especially as 'priests to His God<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;& Father.'<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Who do I find it difficult to show grace to?<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;... to be at peace with?<br> 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;What is 1 thing I could do this week to extend<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;grace & peace a little more fully to that person?</li><br>
+                    <li>... ?</li></ul><br><br>
+                    <button type="button" onclick="window.close()" style="display:block; margin:0 auto; font-size:16px; font-weight:bold;">Close</button>
+                </div>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const page = params.get("page") || "this page";
+
+        document.getElementById("pageName").textContent = page;
+        document.getElementById("subject").value = "Re " + page;
+        document.title = page + " - Suggestions";
+        document.querySelector(".suggestions-title").textContent = page + " - Suggestions";
+    </script>
+</body>
+</html>
