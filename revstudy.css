@@ -184,7 +184,8 @@
 
         .passage-title {
             text-align: center; 
-            font-size: 1.4em; 
+            font-size: 1.5em; 
+            font-weight: bold;
             color: #843300; 
             margin-bottom: 0px; 
             padding-bottom: 0px;
@@ -273,6 +274,14 @@
         .subtitle-links a:hover {
             color: #028a00;
             text-decoration: underline !important;
+        }
+
+        .intro-text {
+            font-size: 1em; 
+            line-height: 1.5; 
+            flex: 1;
+            white-space: normal;
+            font-feature-settings: "kern" 1;
         }
 
         .bible-text {
@@ -512,4 +521,37 @@
             border-bottom: 3px solid #d4af37;
             padding-bottom: 5px;
         }
+
+    .notes-list,
+    .sublist {
+      list-style-position: inside;
+      padding: 0;
+      margin: 0;
+    }
+
+    .notes-list > li {
+      padding: 20px;
+      margin: 0;
+      line-height: 2;
+      font-size: 15px;
+      font-weight: bold;
+      font-style:italic;
+    }
+
+    .sublist > li {
+      padding: 25px;
+      margin: 0;
+      line-height: 1.5;
+      font-size: 14px;
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    .notes-list li,
+    .sublist li {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
 
