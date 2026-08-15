@@ -231,7 +231,7 @@
             margin-left: auto !important;     /* ← THIS PUSHES TO RIGHT */
             flex-shrink: 0 !important;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.8em;
+            font-size: 0.85em;
             font-weight: bold; 
             line-height: 0.8;
         }
@@ -243,7 +243,6 @@
             text-decoration: none !important;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.8em;
             font-weight: bold; 
             line-height: 0.8; 
         }
@@ -255,7 +254,6 @@
             text-decoration: none !important;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-serif;
-            font-size: 0.8em;
             font-weight: bold; 
             line-height: 0.8; 
         }

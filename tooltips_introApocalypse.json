@@ -1,0 +1,46 @@
+{
+ "apoc-apoc":
+ "<div class=\"tooltip-content\">The first word in the <a href=\"https://www.biblegateway.com/passage/?search=Rev%201&version=THGNT#:~:text=1-,%E1%BC%88%CF%80%CE%BF%CE%BA%CE%AC%CE%BB%CF%85%CF%88%CE%B9%CF%82,-%E1%BC%B8%CE%B7%CF%83%CE%BF%E1%BF%A6%20%CF%87%CF%81%CE%B9%CF%83%CF%84%CE%BF%E1%BF%A6%20%E1%BC%A3%CE%BD\" target=\"_blank\" rel=\"noopener\"><b>Greek text</b></a> of Revelation is 'Ἀποκάλυψις', which: <ul><li>when <a href=\"#\" class=\"inner-highlight\" data-inner=\"transliterated\">transliterated</a>, is 'apocalypsis' … the source of the English word <b>'apocalypse'</b>;</li><li>but when <a href=\"#\" class=\"inner-highlight\" data-inner=\"translated\">translated</a>, is an 'unveiling' or a 'revealing' of something hidden … that is, a <b>'revelation'</b>!</li></ul></div>",
+
+ "transliterated": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-apoc\">[Back]</a><br><b>Transliteration</b> is the process of changing the letters of a word from a text in another language (such as the ancient Koine Greek used in the NT) into the equivalent letters in English. This effectively makes the word 'readable' using equivalent sounds in the English language, but in <u>no way</u> translates the actual <u>meaning</u> of the word to an English equivalent.<br>Other examples of 'transliterated' words commonly found in the New Testament include:<ul><li>'amen' from ἀμήν (≈ amēn) which means 'truly', 'certainly' or 'so be it'</li><li>'hallelujah' from ἁλληλουϊά (≈ hallēlouia) which means 'praise the LORD'</li><li>'Christ' from Χριστός (≈ Christos) which means 'Anointed one'</li><li>'baptise' from βαπτίζω (≈ baptizō) which means 'immerse', 'dip' or 'wash'</li><li>'apostle' from ἀπόστολος (≈ apostolos) which means 'envoy' or 'sent one'</li></ul><br>Such transliterated words effectively become 'loan words' in English  where they often accrue meanings & connotations that were not present (or at least not predominant) in the original language.<br>This is certainly the case with 'apocalypse'!</div>",
+
+ "translated": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-apoc\">[Back]</a><br><b>Translation</b> is the process by which scholars determine what <b>meanings</b> the original words, phrases and sentences used in the ancient Koine Greek of the NT would have communicated to the original readers, and then writing English words, phrases and sentences which communicate as closely as possible that same meaning to modern English speakers & readers. Examples of 'translated' words commonly found in the New Testament include:<ul><li>'grace' from χάρις (≈ charis) which can refer to 'favour', 'kindness' or 'a gracious gift'</li><li>'peace' from εἰρήνη (≈ eirēnē) which can refer to 'peace', 'harmony', 'wellbeing' or 'reconciliation'</li><li>faith from πίστις (≈ pistis) which can refer to 'faith', 'trust', 'belief', 'faithfulness' or 'fidelity'</li><li>'love' from ἀγάπη (≈ agapē) which may refer to 'love', 'devotedness', 'generosity' or 'an unconditional positive regard for another'</li></ul><br>Given the various nuances of anciemt words, a translator often uses different English words to translate the same Greek word at different points in a text to effectively express which nuances of meaning were intended by the original author.</div>",
+
+ "apoc-media":
+ "<div class=\"tooltip-content\">These <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">books</a>, <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">radio broadcasts</a>, <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-tv\">TV shows</a> and <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-movies\">movies</a> (and even popular <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-songs\">songs</a>) tell stories that portray people in situations where they are:<br><ul><li>trying to <a href=\"#\" class=\"inner-highlight\" data-inner=\"medi-prevent\">prevent the catastrophe</a>, or</li><li>trying to <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-survive\">survive the catastrophe</a>, or</li><li>trying to survive in the <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-post\">'post-apocalyptic'</a> world after the catastrophe.</li></ul></div>",
+
+ "media-books": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+
+"media-radio": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+
+"media-tv": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+ 
+"media-movies": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+ 
+"media-songs": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+
+ "media-prevent": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+
+ "media-survive": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+
+ "media-post": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+
+ "apoc-catastrophes": 
+ "<div class=\"tooltip-content\">The particular 'catastrophe' portrayed typically represent the <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-fears\">cultural fears</a> of the time they were produced. </div>",
+
+ "apoc-fears": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-catastrophes\">[Back]</a><br>Under construction …</div>",
+
+ "apoc-christian": 
+ "<div class=\"tooltip-content\"><br>Under construction …</div>"
+} 
