@@ -12,14 +12,92 @@
  "<div class=\"tooltip-content\">These <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">books</a>, <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">radio broadcasts</a>, <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-tv\">TV shows</a> and <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-movies\">movies</a> (and even popular <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-songs\">songs</a>) tell stories that portray people in situations where they are:<br><ul><li>trying to <a href=\"#\" class=\"inner-highlight\" data-inner=\"medi-prevent\">prevent the catastrophe</a>, or</li><li>trying to <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-survive\">survive the catastrophe</a>, or</li><li>trying to survive in the <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-post\">'post-apocalyptic'</a> world after the catastrophe.</li></ul></div>",
 
  "media-books": 
- "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Significant examples of books telling 'apocalyptic' stories include:<ul><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Grainville\"><i>Le Dernier Homme (The Last Man)</i></a> (1805) by Jean-Baptiste de Grainville</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Shelley\"><i>The Last Man</i></a> (1826) by Mary Shelley</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Jefferies\"><i>After London</i></a> (1885) by Richard Jefferies</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Wells\"><i>The War of the Worlds</i></a> (1898) by HG Wells</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Forster\"><i>The Machine Stops</i></a> (1909) by EM Forster</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-London\"><i>The Scarlet Plague</i></a> (1912) by Jack London</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Harbou\"><i>Niels Klim's Journey Under the Ground</i></a> / <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Harbou\"><i>Metropolis</i></a> (1925) by Thea von Harbou</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Stewart\"><i>Earth Abides</i></a> (1949) by George R Stewart</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Wyndham\"><i>The Day of the Triffids</i></a> (1951) by John Wyndham</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Matheson\"><i>I Am Legend</i></a> (1954) by Richard Matheson</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Shute\"><i>On the Beach</i></a> (1957) by Nevil Shute</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Miller\"><i>A Canticle for Leibowitz</i></a> (1959) by WM Miller Jr.</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-King\"><i>The Stand</i></a> (1978) by Stephen King</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Atwood\"><i>The Handmaid's Tale</i></a> (1985) by Margaret Atwood</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-James\"><i>The Children of Men</i></a> (1992) by P.D. James</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-McCarthy\"><i>The Road</i></a> (2006) by Cormac McCarthy</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books-Brooks\"><i>World War Z</i></a> (2006) by Max Brooks</li></div>",
+
+"media-books-Grainville": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>Jean-Baptiste François Xavier Cousin de Grainville was an ex-priest who merged traditional biblical apocalypse themes (inverting the Genesis account) with early concepts of science fiction, such as futuristic technology & global human extinction.<br><br>The last fertile couple om Earth are urged by the Spirit of the Earth to repopulate the world but they are confronted by Adam (the biblical first man) who has been sent by God to convince them not to prolong humanity's existence, as God has decreed that the human race must finally end.</div>",
+
+"media-books-Shelley": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>Shelley tells the story of a world destroyed by a global plague.</div>",
+
+"media-books-Jefferies": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>Jefferies tells perhaps the first post-apocalyptic story, in which nature reclaims England after an unspecified catastrophe.</div>",
+
+"media-books-Wells": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>Wells wrote this alien invasion story which became a massive milestone in apocalyptic fiction. It fundamentally shifted how authors thought about the end of the world.<br><br>Wells introduced the concept of a technologically superior, hostile alien race (Martians) pushing humanity to the brink of extinction. He intended it as a direct commentary on British colonialism, forcing Victorian readers to imagine how it felt to be on the receiving end of an overwhelming, technologically unstoppable invasion force. He further expressed his disdain for those in power by having the apocalypse averted by the smallest entities on Earth — bacteria. The Martians have no immunity to Earth's microbes and succumb to infection.</div>",
+
+"media-books-Forster": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>In this novel, humanity lives underground, entirely dependent on an all-powerful, automated global machine. When the machine inevitably breaks down, humanity collapses with it.<br><br>This is arguably the most prophetic sci-fi story ever written. Forster predicted the internet, instant messaging, video calls, and a society completely paralyzed by its over-reliance on technology.</div>",
+
+"media-books-London": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>In this novella, a sudden, uncontrollable pandemic called the 'Red Death' wipes out almost the entire global population in 2013. Some 60 years later, an old survivor is trying to explain the lost world of high technology, universities, & air travel to his savage, tribal grandsons who have no concept of civilization.</div>",
+
+"media-books-Harbou": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>Later made into the famous film <i>Metropolis</i>, this book depicts a dystopian apocalypse where the division between the wealthy elites and the subterranean working class threatens to violently tear society apart.</div>",
+
+"media-books-Stewart": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>This was an influential novel about a scholar attempting to rebuild society after a disease wipes out most of humanity.</div>",
+
+"media-books-Wyndham": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>Wyndham's novel is a masterpiece of British science fiction. It is famous for creating the 'cosy catastrophe' subgenre, where society collapses but a small group of middle-class survivors attempts to rebuild.</div>",
+
+"media-books-Matheson": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>This atory was a massive influence on modern zombie apocalypse stories, depicting a lone survivor in a world of infected creatures.</div>",
+
+"media-books-Shute": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br><i>On the Beach</> was a defining novel of the Cold War era that tracks the final months of the last humans (in Australia) waiting for deadly global nuclear radiation to reach them.</div>",
+
+"media-books-Miller": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>A Hugo Award-winning masterpiece tracking a Catholic monastery over thousands of years as humanity rebuilds from a nuclear holocaust, only to face the same cycle again.</div>",
+
+"media-books-King": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>A monumental epic about a weaponised strain of influenza that kills 99% of the population, followed by a biblical battle between good & evil.</div>",
+
+"media-books-Atwood": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>A dystopian & apocalyptic scenario where environmental collapse & infertility lead to a totalitarian regime.</div>",
+
+"media-books-James": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>A novel focusing on a world facing sudden mass infertility, exploring the psychological despair of a society with no future generations.</div>",
+
+"media-books-McCarthy": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>This Pulitzer Prize-winning novel that stripped the genre of sci-fi tropes. It follows a father and son through a burned, ash-covered, post-apocalyptic American landscape.</div>",
+
+"media-books-Brooks": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-books\">[Back]</a><br>This was an influential epistolary novel that treated a zombie apocalypse as a global geopolitical and bureaucratic crisis.</div>",
 
 "media-radio": 
- "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Numerous famous apocalyptic radio broadcasts were adaptations of pre-existing novels, including:<ul><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-Wells\"><i>The War of the Worlds</i></a> (CBS, Mercury Theatre on the Air, 30 Oct 1938)</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-Stewart\"><i>Earth Abides</i></a> (CBS, Escape, 5 & 12 Nov 1950)</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-Wyndham\"><i>The Day of the Triffids</i></a> (BBC, 1953, 1968 & 2001)</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-London\"><i>The Scarlet Plague</i></a> (NBC, Escape, 8 Apr 1954)</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-Miller\"><i>A Canticle for Leibowitz</i></a> (Wisconsin Public Radio / NPR, 1981)</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-Shute\"><i>On the Beach</i></a> (BBC Radio, Nov 2008)</li></ul><br>Other 'original' apocalyptic radio shows include:<ul><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-horseman\"><i>The Fifth Horseman</i></a> (NBC Radio, 1946)</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-peoria\"><i>The Peoria Plague</i></a> (WUHN Radio, early 1970s)</li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio-broadcast\"><i>The Last Broadcast</i></a> (released online, 2020s)</li></ul><br>Other than Orson Welles' 'War of the Worlds', most radio productions played to relatively small audiences (less than 1 million). However, their cultural footprint has been amplified by repeats, CD releases, & streaming so their cumulative audiences and cultural impacts over decades are much larger than the original broadcast figures.</div>",
+
+"media-radio-Wells": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>Orson Welles narrated this production, an adaptation of Wells' novel, on Halloween in 1938. It was staged as breaking news about a Martian invasion. Heard by over 6 million people, itt became infamous for convincing some (reportedly about 1 million) the invasion was actually occurring and causing significant panic.</div>",
+
+"media-radio-London": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>Based on London's post-apocalyptic tale of a global plague, it was dramatised for radio as a chilling 'what comes after' story.</div>",
+
+"media-radio-Stewart": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>This was broadcast as a two-part dramatisation of Stewart's novel about a survivor after a global epidemic destroys civilization.</div>",
+
+ "media-radio-Wyndham": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>The BBC produced 3 full cast dramatisations of Wyndham's post-war 'science fantasy' about a world blinded by a meteor shower then overrun by mobile, predatory plants. These included:<ul><li>a BBC Light Programme production (adapted by Giles Cooper) in 1957 (6 30-minute episodes).</li><li>a BBC Radio 4 production in 1968 based on the same Giles Cooper adaptation (6 30-minute episodes). It was later eleased on CD as part of the 'Classic Radio Sci-Fi' series.</li><li>a BBC World Service production based on a new adaptation by Lance Dann (2 45-minute episodes).</li></ul><br>In addition, the BBC periodically recorded & broadcast readings from this influential & popular book over more than 50 years, including:<ul><li>1953 - BBC Home Service broadcast 15 15-minute readings by Frank Duncan.</li><li>1971 - BBC Radio 4 broadcast 10 15-minute readings by Gabriel Woolf.</li><li>1973 - BBC Radio 4 (schools) broadcast a 20-minute extract adapted & produced by Peter Fozzard</li><li>1980 - BBC Radio 4 (Woman's Hour) broadcast 14 15-minute readings by David Ashford.</li><li>2004 on - BBC 7 produced a 17-part unabridged reading of the novel by Roger May; this was broadcast with many subsequent repeats on Radio 4 Extra.</li></ul></div>",
+
+"media-radio-Miller": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>A dramatisation of Miller's novel about monks preserving knowledge through repeated cycles of post=apocalyptic collapse.</div>",
+
+ "media-radio-Shute": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>The BBC produced & broadcast this dramatisation of Shute's novel in 2 episodes. It follows the novel's narrative about the aftermath of a nuclear war, focusing on characters awaiting inevitable fallout in Australia.</div>",
+
+ "media-radio-horseman": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>This was a multi-part Cold War-era drama about nuclear crisis. It was created for radio in a post-war campaign to persuade the American public to support placing nuclear weapons under UN control.</div>",
+
+ "media-radio-peoria": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>This was a local radio drama created by WUHN (now WSWT) in Peoria, Illinois in the early 1970s. It was done in 'War of the Worlds' style about a zombie-like outbreak, blending apocalyptic horror with faux-news bulletins.</div>",
+
+ "media-radio-broadcast": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"media-radio\">[Back]</a><br>This was a modern audio drama styled as a real-time global thermonuclear war broadcast, explicitly evoking Welles' technique and Cold War 'end of the world' anxiety.</div>",
 
 "media-tv": 
  "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
- 
+
 "media-movies": 
  "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"> <a href=\"#\" class=\"inner-highlight\" data-inner=\"apoc-media\">[Back]</a><br>Under construction …</div>",
  
