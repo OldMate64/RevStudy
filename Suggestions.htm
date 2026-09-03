@@ -2,23 +2,26 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="revstudy.css">
-    <title>Suggestions</title>
+    <title>Feedback &/or Suggestions</title>
 </head>
 <body>
     <div style="width: 420px; margin: 0 auto;">
-        <div class="suggestions-title" style="padding: 12px 0;">Suggestions</div>
+        <div class="suggestions-title" style="padding: 12px 0;">Feedback &/or Suggestions</div>
 
         <form action="https://api.web3forms.com/submit" method="POST" style="display:flex; justify-content:center; align-items:center;">
             <input type="hidden" name="access_key" value="a517bb96-17fd-4782-91f4-48f08e10214e">
             <input type="hidden" name="subject" id="subject" value="Suggestion from Revelation page">
 
-            <p style="text-align:center; font-size:16px; font-family: Arial, Helvetica, sans-serif;">
+            <p style="text-align:center; font-size:14px; font-family: Arial, Helvetica, sans-serif;">
                 Name: <input type="text" name="name" required><br>
                 Email: <input type="email" name="email" required><br><br>
-                Suggestions for the <span id="pageName"></span> page:
-                <textarea name="message" required style="width:400px; height:165px; margin: 10px 0; padding: 10px 10px"></textarea><br>
-                <button type="submit" style="font-size:16px; font-weight: bold;">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <button type="button" onclick="window.close()" style="font-size:16px; font-weight: bold;">Close</button>
+                Best things about the <span id="pageName"></span> page:
+                <textarea name="affirmations" required style="width:400px; height:85px; margin: 10px 0; padding: 10px 10px"></textarea><br>
+                Suggestions to improve the <span id="pageName"></span> page:
+                <textarea name="suggestions" required style="width:400px; height:85px; margin: 10px 0; padding: 10px 10px"></textarea><br>
+                <button type="submit" style="font-size:12px; font-weight: bold;">Submit</button>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button type="button" onclick="window.close()" style="font-size:12px; font-weight: bold;">Close</button>
                 <br><br>
             </p>
         </form>
@@ -30,8 +33,9 @@
 
         document.getElementById("pageName").textContent = page;
         document.getElementById("subject").value = "Re " + page;
-        document.title = page + " - Suggestions";
-        document.querySelector(".suggestions-title").textContent = page + " - Suggestions";
+        document.title = page + " - Feedback &/or Suggestions";
+        //document.querySelector(".suggestions-title").textContent = page + " - Feedback &/or Suggestions";//
+        document.querySelector(".suggestions-title").innerHTML = page + "<br>Feedback &/or Suggestions";
     </script>
   <div id="orientation-warning-container"></div>
   <script src="include-orientation-warning.js" defer></script>
