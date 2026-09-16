@@ -15,7 +15,7 @@
             <p style="text-align:center; font-size:14px; font-family: Arial, Helvetica, sans-serif;">
                 Name: <input type="text" name="name" required><br>
                 Email: <input type="email" name="email" required><br><br>
-                Best things about the <span id="pageName"></span> page:
+                Best things about the <i><span id="pageName"></span></i> page:
                 <textarea name="affirmations" required style="width:360px; height:60px; margin: 10px 0; padding: 10px 10px"></textarea><br>
                 Suggestions to improve the <span id="pageName"></span> page:
                 <textarea name="suggestions" required style="width:360px; height:60px; margin: 10px 0; padding: 10px 10px"></textarea><br>
@@ -35,7 +35,7 @@
         document.getElementById("subject").value = "Re " + page;
         document.title = page + " - Feedback &/or Suggestions";
         //document.querySelector(".suggestions-title").textContent = page + " - Feedback &/or Suggestions";//
-        document.querySelector(".suggestions-title").innerHTML = page + "<br>Feedback &/or Suggestions";
+        document.querySelector(".suggestions-title").innerHTML = "<i>" + page + "</i><br>Feedback &/or Suggestions";
     </script>
   <div id="orientation-warning-container"></div>
   <script src="include-orientation-warning.js" defer></script>
