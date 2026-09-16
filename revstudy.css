@@ -6,7 +6,7 @@
         }
         a:link,
         a:visited {
-            color: #5dccff;          /* blue */
+            color: #00aeff;          /* blue */
             text-decoration: none;
             white-space: normal !important;
             display: inline-block !important;
@@ -288,6 +288,7 @@
             font-size: 1em; 
             line-height: 1.5; 
             flex: 1;
+            align-items: flex-start;
             white-space: pre-wrap;
             font-feature-settings: "kern" 1;
         }
