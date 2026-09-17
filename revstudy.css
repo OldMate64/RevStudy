@@ -69,7 +69,7 @@
             position: relative;
             height: 100vh;
             overflow-y: auto;
-            display: flex;
+            display: block;
             flex-direction: column;
         }
         
@@ -196,7 +196,7 @@
         .passage-subtitle {
             text-align: center !important;
             margin: 0 !important;
-            flex: 1 !important;  /* ← Fills center space */
+            flex: 1 0  !important;  /* ← Fills center space */
             font-size: 1em; 
             font-weight: normal;
             color: #0064a2; 
@@ -287,10 +287,13 @@
         .bible-text {
             font-size: 1em; 
             line-height: 1.5; 
-            flex: 1;
-            align-items: flex-start;
             white-space: pre-wrap;
             font-feature-settings: "kern" 1;
+    
+            /* Forces top alignment within flex layout */
+            margin-bottom: auto; 
+            align-self: flex-start;
+            width: 100%;
         }
 
         .highlight {
