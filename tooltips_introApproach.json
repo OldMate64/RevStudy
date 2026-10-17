@@ -1,6 +1,6 @@
 {
  "confusion": 
- "<div class=\"tooltip-content\">Under construction ...</div>",
+ "<div class=\"tooltip-content\">Ancient apocalyptic literature is a particular literary genre heavily reliant on figurative language, symbolic numbers & coded political critique directed at the Roman Empire. Readers across history, however, have misinterpreted Revelation without reference to its cultural setting. This has fostered cultural confusion & frequently led to tragic social, political & human outcomes.<br><br>Some significant examples include:<ul><li>Montanism (c. 170-600s AD)</li><li>The Apocalypse of Pseudo-Methodius (c. 690 AD)</li><li>Medieval & modern antisemitism</li><li>The Millerites (1844)</li<li>The Taiping rebellion (1850-1864)</li></ul></div>",
 
  "prejudices": 
  "<div class=\"tooltip-content\">Under construction ...</div>",
@@ -18,10 +18,49 @@
  "<div class=\"tooltip-content\">Under construction ...</div>", 
  
  "mainApproaches": 
- "<div class=\"tooltip-content\">Under construction ...</div>", 
+ "<div class=\"tooltip-content\">The NT book of Revelation has generally been interpreted through four primary approaches:<ul><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"preterist\">Preterist</a></li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"futurist\">Futurist</a></li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"historicist\">Historicist</a></li><li><a href=\"#\" class=\"inner-highlight\" data-inner=\"idealist\">Idealist</a></li></ul>Each of these approaches carries both distinct hermeneutical advantages & significant theological weaknesses.<br><br>The approach taken in this Guide is <u>not</u> based on any of these traditional approaches developed in the historical ebb & flow of Christian theological formulation. Rather, this Guide attempts to follow widely accepted 'first principles' of sound biblical hermeneutics as they apply specifically to the NT Revelation.</div>", 
  
+ "preterist": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"mainApproaches\">[Back]</a></p>The term 'preterist' originates from the Latin word <i>praeter</i>, meaning 'past' or 'beyond'.<br><br>The preterist view view regards the prophecies of Revelation primarily fulfilled in the first century (in the past!), specifically during the Jewish-Roman War which led to the destruction of Jerusalem & the Temple &/or the Roman persecutions under Nero.<br><br>The preterist view has both significant <a href=\"#\" class=\"inner-highlight\" data-inner=\"preterist-strengths\">strengths</a> & <a href=\"#\" class=\"inner-highlight\" data-inner=\"preterist-weaknesses\">weaknesses</a>.</div>", 
+
+ "preterist-strengths": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"preterist\">[Back]</a></p><b>Strengths</b>:<ul><li>The preterist view reflects the book's own internal time-frame markers (eg. 'the time is near' & 'must shortly take place' in 1:1, 22:6)</li><li>It takes the message as <u>immediately</u> relevant to the original first-century readers experiencing Roman persecution.</li><li>It anchors the symbols in verifiable ancient history, including the Jewish-Roman war (AD 67-73) & the destruction of the Jerusalem Temple (AD 70).</li></ul></div>", 
+
+ "preterist-weaknesses": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"preterist\">[Back]</a></p><b>Weaknesses</b>:<ul><li>Dating Issues: preterism relies heavily on an early date for Revelation (pre-AD 70), which runs counter to strong early church tradition (vouched for by Irenaeus) pointing to a later date during the reign of Domitian (~ AD 95-96).</li><li>Consummation Tension: it struggles to adequately account for the totality & finality of cosmic language in chs. 20-22, which appears to look beyond AD 70 to a universal, physical bodily resurrection & a fully renewed creation.</li></ul></div>", 
+  
+ "futurist": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"mainApproaches\">[Back]</a></p>This view regards chapters 4-22 of Revelation as describing unfulfilled events that will take place in the future (for both the original & current readers!) just before & during the return of Christ.<br><br>The futurist view has both significant <a href=\"#\" class=\"inner-highlight\" data-inner=\"futurist-strengths\">strengths</a> & <a href=\"#\" class=\"inner-highlight\" data-inner=\"futurist-weaknesses\">weaknesses</a>.</div>", 
+ 
+ "futurist-strengths": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"futurist\">[Back]</a></p><b>Strengths</b>:<ul><li>Literal Consistency: The futurist view applies a straightforward, consistent predictive hermeneutic to prophecy, treating the apocalyptic text as genuine forecasting of future historical endpoints.</li><li>Eschatological Hope: It maintains an intense, active expectation for the literal, bodily return of Jesus Christ & the ultimate vindication of the faithful on a global scale.</li></ul></div>", 
+
+ "futurist-weaknesses": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"futurist\">[Back]</a></p><b>Weaknesses</b>:<ul><li>Audience Disconnection: By pushing nearly all major action past chapter 3 into the distant future, the futurist view risks rendering the book virtually meaningless & devoid of practical comfort for the historical seven churches to whom it was addressed. This runs counter to the universal pattern of biblical prophecy being 'the word of the Lord' to the original hearers!</li><li>Sensationalism: It frequently encourages speculative 'newspaper exegesis' — mapping contemporary geopolitical figures or modern crises onto biblical symbols — which requires constant revision as history moves on.</li></ul></div>", 
+  
+ "historicist": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"mainApproaches\">[Back]</a></p>This view regards Revelation as a symbolic, chronological timeline of universal church history unfolding continuously from the first century through to the Second Coming. The Seven Churches (chs 2-3) are seen seven eras of church history, the Seals & trumpets (chs. 4-11) are typically tied to historical events such as the decline & fall of the Western Roman Empire, barbarian invasions & expansion of Islamic empires.<br><br>Once very popular among the Reformers, he historicist view is now mainly promoted in certain theological traditions (eg. Seventh Day Adventism). It has both significant <a href=\"#\" class=\"inner-highlight\" data-inner=\"historicist-strengths\">strengths</a> & <a href=\"#\" class=\"inner-highlight\" data-inner=\"historicist-weaknesses\">weaknesses</a>.</div>", 
+ 
+ "historicist-strengths": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"historicist\">[Back]</a></p><b>Strengths</b>:<ul><li>Grand Scope: The historicist view sees the entire sweep of church history as the theatre of God's redemptive & judgmental activity, giving believers a panoramic view of continuity from the apostles to the end.</li><li>Pastoral Endurance: It historically provided Protestant Reformers immense assurance by identifying oppressive contemporary structures (such as the medieval Papacy) as part of a grand divine blueprint.</li></ul></div>", 
+
+ "historicist-weaknesses": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"historicist\">[Back]</a></p><b>Weaknesses</b>:<ul><li>Subjective Arbitrariness: Different historicist commentators have mapped the seals, trumpets & bowls onto completely different historical epochs, leading to a fragmented array of conflicting timelines.</li><li>Western Bias: It tends to offer Eurocentric or Americocentric interpretations of prophecy, requiring an Ancient Near Eastern document be reduced to commentary on historical & current 'Western' churches &/or geopolitics.</li></ul></div>", 
+  
+ "idealist": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"mainApproaches\">[Back]</a></p>This view regards Revelation as presenting a timeless, allegorical depiction of the ongoing spiritual struggle between God & Satan or good & evil throughout history rather than tracking specific historical or future dates or events. Tribulation, spiritual warfare & martyrdom are understood as constant realities for believers in every generation. Revelation is seen as a series of parallel cycles telling the same story from different angles, portraying the church's struggle & suffering on Earth before culminating in the final victory of Christ & the last judgment.<br><br>The idealist view has both significant <a href=\"#\" class=\"inner-highlight\" data-inner=\"idealist-strengths\">strengths</a> & <a href=\"#\" class=\"inner-highlight\" data-inner=\"idealist-weaknesses\">weaknesses</a>.</div>", 
+ 
+ "idealist-strengths": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"idealist\">[Back]</a></p><b>Strengths</b>:<ul><li>Universal Applicability: The idealist view prevents the text from being chained to a single century or a specific chronological guess, making Revelation powerfully applicable to persecuted Christians in any era or geographic location.</li><li>Thematic Purity: It focuses attention squarely on the pastoral & theological core of the book: the spiritual reality of cosmic warfare & the absolute certainty that good will defeat evil.</li></ul></div>", 
+
+ "idealist-weaknesses": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"idealist\">[Back]</a></p><b>Weaknesses</b>:<ul><li>Textual Minimization: By treating elements as purely timeless or poetic ideas, the idealist view can gloss over specific structural details, numbers & historical clues embedded by the author.</li><li>Lack of Concrete Anchor: Without a tether to specific historical occurrences, readers risk turning the text into a blank canvas where any subjective spiritual meaning can be read into the symbols.</li></ul></div>", 
+
  "apocalypse": 
- "<div class=\"tooltip-content\">Under construction ...</div>", 
+ "<div class=\"tooltip-content\">In late Jewish & early Christian writings, <a href=\"#\" class=\"inner-highlight\" data-inner=\"apocalypse-lit\">apocalyptic literature</a> functioned as theological resistance against intense persecution & oppression of the faithful community:<ul><li>It portrayed earthly suffering as part of a hidden, cosmic battle.</li><li>It reassured oppressed believers that a corrupt historical timeline was strictly limited by the sovereign God who would imminently intervene to<ul><li>defeat evil</li><li>vindicate the faithful</li><li>& fully establish His eternal kingdom.</li></ul></li></ul><br>For more detail, see the introduction pages for information about the Jewish & Christian historical context important for interpreting Revelation.</div>", 
+ 
+ "apocalypse-lit": 
+ "<div class=\"tooltip-content\"><p style=\"line-height: 1.5em; margin-bottom: 0.75em;\"><a href=\"#\" class=\"inner-highlight\" data-inner=\"apocalypse\">[Back]</a></p>Such writings are characterised by esoteric revelations mediated by heavenly beings which unveil hidden cosmic 'secrets'. It features sharp dualism (cosmic battles between good & evil, light & darkness) & bizarre, symbolic imagery such as monstrous beasts & celestial upheavals. Ultimately, these features culminate in a final divine intervention, where God radically destroys the current corrupt age to establish his eternal kingdom & vindicate the righteous.</div>", 
  
  "prophecy": 
  "<div class=\"tooltip-content\">Under construction ...</div>", 
@@ -38,10 +77,10 @@
  "literalist": 
  "<div class=\"tooltip-content\">Under construction ...</div>", 
  
- "eisogesis": 
- "<div class=\"tooltip-content\">Under construction ...</div>", 
+ "eisegesis": 
+ "<div class=\"tooltip-content\"><i><b>Eisegesis</b></i> is the process of interpreting texts by reading one's own subjective ideas, biases, agendas, or preconceived notions into the text rather than drawing the original meaning out of it. <i>Eisegesis</i> is derived from the Greek preposition <i>eis</i> ('into' or 'in') & <i>hegeomai</i> ('to lead'), literally meaning 'to lead into' the text.<br><br>This approach starts with preferred conclusions or theological biases & looks for ways to support them — treating verses like tools to prove their point. It typically ignores historical-cultural background, original grammar, syntax & most importantly the author's intended message, isolating verses from their proper framework to make or support a 'preferred' point.</div>", 
  
  "exegesis": 
- "<div class=\"tooltip-content\">Under construction ...</div>"
+ "<div class=\"tooltip-content\"><i><b>Exegesis</b></i> . is the practical process of carefully analysing a specific text to draw out the author's original meaning. <i>Exegesis</i> is derived from the Greek preposition <i>ex-</i> ('out' or 'away') & <i>hegeomai</i> ('to lead'), literally 'to lead out' meaning from the text.<br><br>To properly exegete a passage, an interpreter typically examines:<ul><li><b>Historical & cultural context</b>: What was happening in the world, city or culture when this was writtenat the time?</li><li><b>Literary genre</b>: Is the passage poetry, narrative, prophecy, law or apocalyptic?</li><li><b>Literary context</b>: What comes right before & after the verse, what is the overarching point of the book?</li><li><b>Grammar & syntax</b>: How do the words, sentence structures & verbs function in the original language?</li><li><b>Authorial intent</b>: What did the author mean to communicate to their original audience 'then & there' <u>before</u> asking what it means for us 'here & now'?</li></ul></div>"
 
  } 
