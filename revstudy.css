@@ -164,6 +164,19 @@
             flex-shrink: 0;
         }
 
+        /* Custom link styling specifically for the right-column tooltips */
+        .commentary-column .tooltip a:link,
+        .commentary-column .tooltip a:visited {
+            color: #87d9ff !important;            /* Lighter, high-contrast cyan/blue for dark background */
+            text-decoration: none;
+        }
+
+        .commentary-column .tooltip a:hover,
+        .commentary-column .tooltip a:focus {
+            color: #0082bf !important;            /* Bright gold/yellow accent on hover */
+            text-decoration: underline;
+        }
+
         .indent-8mm {
             padding-left: 8mm;  /* Indents bullets + text */
             /* OR use margin-left: 5mm; if you prefer */
